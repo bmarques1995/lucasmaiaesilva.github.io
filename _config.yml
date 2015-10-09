@@ -1,0 +1,27 @@
+# Site settings
+title: Lucas Maia e Silva - Future Full Stack Developer
+email: lucasmaiaesilva@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  A blog created to help people that wants to lean a little bit more about Web Development
+baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "http://willianjusten.com.br" # the base hostname & protocol for your site
+twitter_username: lucasmaiaesilva
+github_username:  lucasmaiaesilva
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: /:title/
+source: app
+
+post-thumb-default: /assets/img/default.png
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
