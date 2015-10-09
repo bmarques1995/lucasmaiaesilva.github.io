@@ -12,7 +12,6 @@ github_username:  lucasmaiaesilva
 markdown: kramdown
 highlighter: pygments
 permalink: /:title/
-source: app
 
 post-thumb-default: /assets/img/default.png
 

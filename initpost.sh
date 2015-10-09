@@ -42,14 +42,14 @@ FILE_NAME="${CURRENT_DATE}-${POST_NAME}.md"
 
 # Set your destination folder
 BINPATH=$(cd `dirname $0`; pwd)
-POSTPATH="${BINPATH}/app/_posts"
+POSTPATH="${BINPATH}/_posts"
 DIST_FOLDER="$POSTPATH"
 
 # Set your blog URL
 # BLOG_URL="http://willianjusten.com.br"
 
 # Set your assets URL
-ASSETS_URL="app/assets/img/"
+ASSETS_URL="assets/img/"
 # ----------------------------------------------------------------
 
 
