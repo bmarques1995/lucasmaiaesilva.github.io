@@ -45,14 +45,18 @@ aside
         display block
         width 100%
         position relative
-        height 300px
+        height 800px
     .sidebar-content
         align(both)
         color #fff
         .block
             img
                 width 230px
+                +below(bp)
+                    width 100%
             .icons
+                +below(bp)
+                    margin 35px 0
                 width 90%
                 margin 0 auto
                 .social-icons
