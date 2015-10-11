@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hello World"
+title: "Using Gulp to automatize your workflow"
 date: 2015-10-08 19:58:30
 image: "/assets/img/thumbs/jekyll.png"
 description:
