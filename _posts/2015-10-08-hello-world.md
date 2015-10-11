@@ -2,7 +2,7 @@
 layout: post
 title: "Using Gulp to automatize your workflow"
 date: 2015-10-08 19:58:30
-image: "/assets/img/thumbs/jekyll.png"
+image: "http://lostechies.com/derickbailey/files/2014/03/JavaScript-logo.png"
 description:
 tags:
 categories:
@@ -15,6 +15,8 @@ introduction:
 A trilha sonora fica por conta de [Tame Impala](https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb), uma banda bastante psicodélica e que fez um dos melhores shows que já pude assistir =)
 
 Como prometido, vou dar continuidade a série de posts sobre ReactJS e para acompanhar tanto essa série, como outras, é só ir no link [series](http://willianjusten.com.br/series/).
+
+![Mac OS El Capitan](http://3.bp.blogspot.com/-sDgqgZInHzk/Vb_LwzM_iRI/AAAAAAAAAzA/4RmZU6CVkl0/s1600/el-capitan.png)
 
 ## Iniciando
 
