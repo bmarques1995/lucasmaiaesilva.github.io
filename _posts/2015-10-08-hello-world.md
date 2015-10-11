@@ -5,6 +5,8 @@ date: 2015-10-08 19:58:30
 image: "http://lostechies.com/derickbailey/files/2014/03/JavaScript-logo.png"
 description:
 tags:
+- estudo
+- produtividade
 categories:
 twitter_text:
 introduction:

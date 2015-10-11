@@ -10,7 +10,13 @@ comments: true
         {% if page.date %}
         <span><i>{{ page.date | date_to_string }}</i></span>
         {% endif %}
-        <span>tags: <a href="#">front-end</a></span>
+        <span>tags: 
+    {% for post in site.posts %}
+        {% for tag in post.tags %}
+            <a href="#">{{ tag }}, </a>
+        {% endfor %}
+    {% endfor %}
+        </span>
     </header>
 </div>
 <article>
