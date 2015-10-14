@@ -1,11 +1,29 @@
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-	<link rel="stylesheet" href="/assets/css/main.css">
-	<link rel="shortcut icon" href="/assets/img/favicon.ico">
-	<meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-	<!-- Favico -->
-	<link rel="shortcut icon" href="/assets/img/icons/favicon.ico" type="image/x-icon" />
+		<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+		<!-- author -->
+     <link rel="author" href="https://plus.google.com/+?rel=author">
+     <meta name="autor" content="Lucas Maia e Silva" />
+
+     <!-- Social: Twitter -->
+     <meta name="twitter:card"  content="summary_large_image">
+     <meta name="twitter:site"  content="@lucasmaiaesilva">
+     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+     <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+		 <!-- Social: Google+ / Schema.org  -->
+		 <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+		 <meta itemprop="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+		 <meta itemprop="image" content="{{ "/assets/img/software-senai.png" | prepend: site.baseurl | prepend: site.url }}"/>
+
+		<link rel="stylesheet" href="/assets/css/main.css">
+		<link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+		<!-- Favico -->
+		<link rel="shortcut icon" href="/assets/img/icons/favicon.ico" type="image/x-icon" />
 </head>
