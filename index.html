@@ -20,6 +20,16 @@ layout: default
         <div class="t-post-info">
             <a href="{{ post.url | prepend: site.baseurl }}"><h1>{{post.title}}</h1></a>
         </div>
+        {% if post.date %}
+        <p><i>{{ post.date | date_to_string }}</i></p>
+        {% endif %}
+        <p>tags: 
+        {% for post in site.posts %}
+            {% for tag in post.tags %}
+                <a href="#">{{ tag }}, </a>
+            {% endfor %}
+        {% endfor %}
+        </p>
     </div>
 {% endfor %}
 </div>
