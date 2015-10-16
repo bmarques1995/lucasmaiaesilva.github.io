@@ -23,7 +23,7 @@
     {% if page.image %}
     <meta property="og:image" content="{{ site.url }}{{ page.image }}">
     {% else %}
-    <meta property="og:image" content="{{ "/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:image" content="{{ "http://lucasmaiaesilva.com.br/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url }}">
     {% endif %}
     <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:site_name" content="{{ site.title }}">
@@ -52,4 +52,6 @@
 
 	<!-- Android Lolipop Theme Color -->
 	<meta name="theme-color" content="#1d1d1d">
+
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 </head>
