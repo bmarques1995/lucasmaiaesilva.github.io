@@ -24,4 +24,4 @@ compress_html:
   profile: false
 
 # exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules', 'app]
+exclude: ['package.json', 'src', 'node_modules', 'app']
