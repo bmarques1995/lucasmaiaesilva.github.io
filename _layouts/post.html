@@ -10,7 +10,7 @@ comments: true
         {% if page.date %}
         <span><i>{{ page.date | date_to_string }}</i></span>
         {% endif %}
-        <span>tags: 
+        <!--<span>tags: -->
     {% for post in site.posts %}
         {% for tag in post.tags %}
             <!--<a href="#">{{ tag }}, </a>-->
