@@ -18,7 +18,7 @@ Bom sem mais papo furado vamos dar início ao post.
 
 ## Filosofia
 
-Segundo a [documentação](http://daringfireball.net/projects/markdown/) oficial feita por John Gruber (um dos criadores ), o Markdown foi criado para ser um padrão de documentação mais *fácil de ler* e *fácil de escrever* possível. Essa facilidade em legibilidade é resultado de um padrão de escrita estudado cuidadosamente, e criado então utilizando-se de pontuações e caracteres concatenados a escrita dando assim a formatação desejada aos itens em questão.
+Segundo a [documentação](http://daringfireball.net/projects/markdown/) oficial feita por John Gruber (um dos criadores), o Markdown foi criado para ser um padrão de documentação mais *fácil de ler* e *fácil de escrever* possível. Essa facilidade em legibilidade é resultado de um padrão de escrita estudado cuidadosamente, e criado então utilizando-se de pontuações e caracteres concatenados a escrita dando assim a formatação desejada aos itens em questão.
 
 ## Onde Usar?
 
@@ -102,7 +102,7 @@ Eu acho que não deveríamos usar a tag `<br />` nos nossos projetos
 
 Markdown realmente é um padrão poderoso de marcação de documentos e deve realmente ser usado quando for requisitado, pois como vimos é muito simples a sua utilização e ele também é muito bem documentado.
 
-*Obs: não deixem de deixar um feedback nos comentários, para saber se devo continuar escrevendo e sobre qual assunto. Muito Obrigado pela atenção*
+*Obs: não deixem de deixar um feedback nos comentários, para saber se devo continuar escrevendo e sobre qual assunto. Muito Obrigado pela atenção :)*
 
 
 
