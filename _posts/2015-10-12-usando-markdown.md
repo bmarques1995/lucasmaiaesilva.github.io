@@ -37,6 +37,15 @@ O próprio Github, usa o Markdown para que seus usuários possam documentar seus
 #### <h4> 
 {% endhighlight %}
 
+> # Este é o título principal ou <h1>
+> 
+> ## Esté é o subtítulo ou <h2>
+>
+> ### Sub Subtítulo <h3>
+>
+> #### <h4> 
+
+
 ### Elementos de linha
 
 {% highlight html %}
@@ -46,6 +55,15 @@ _Este também estará itálico_
 __Este também estará em negrito__
 _Você pode **combinar** eles também_
 {% endhighlight %}
+
+> *Este texto ficará itálico*
+> 
+> _Este também estará itálico_
+> 
+> **Este ficará em negrito**
+> 
+> _Você pode **combinar** eles também_
+
 
 ### Listas
 
@@ -58,6 +76,15 @@ _Você pode **combinar** eles também_
 	* Item 2b
 {% endhighlight %}
 
+> * Item 1
+>
+> * Item 2
+>
+> 	* Item 2a
+>
+>	* Item 2b
+
+
 #### Não Ordenadas
 
 {% highlight  html %}
@@ -67,20 +94,32 @@ _Você pode **combinar** eles também_
 	* Item 2b
 {% endhighlight %}
 
+> 1. Item 1
+> 
+> 2. Item 2
+>
+> 	* Item 2a
+>
+>	* Item 2b
+
+
 ### Imagens
 
 {% highlight  html %}
 ![GitHub Logo](/images/logo.png)
 {% endhighlight %}
 
+> ![GitHub Logo](/assets/img/posts/usando-markdown/Octocat.png)
+
 _O que aparece entre colchetes é o que seria renderizado como o atributo **alt** do html_
 
 ### Links
 
 {% highlight  html %}
-http://github.com - link automático
 [GitHub](http://github.com) - link com um texto atrelado a ele 
 {% endhighlight %}
+ 
+> [GitHub](http://github.com) - link com um texto atrelado a ele 
 
 ### Blockquotes (citação)
 
@@ -92,11 +131,17 @@ Seu madruga disse uma vez:
 
 {% endhighlight %}
 
+> *"Não há nada mais trabalhoso,*
+> 
+> *que viver sem trabalhar"*
+
 ### código inline
 
 {% highlight  html %}
 Eu acho que não deveríamos usar a tag `<br />` nos nossos projetos
 {% endhighlight %}
+
+> Eu acho que não deveríamos usar a tag `<br />` nos nossos projetos
 
 ## Conclusão
 
