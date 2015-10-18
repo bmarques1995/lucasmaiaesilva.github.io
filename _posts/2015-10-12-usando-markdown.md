@@ -67,7 +67,7 @@ _Você pode **combinar** eles também_
 
 ### Listas
 
-#### Ordenadas
+#### Não ordenadas
 
 {% highlight  html %}
 * Item 1
@@ -85,7 +85,7 @@ _Você pode **combinar** eles também_
 >	* Item 2b
 
 
-#### Não Ordenadas
+#### Ordenadas
 
 {% highlight  html %}
 1. Item 1
