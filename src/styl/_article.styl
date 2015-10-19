@@ -16,8 +16,17 @@ section.blog-content
 			+below(bp)
 				font-size .7em
 		ul,ol
+			width 90%
+			margin 1.3em auto
+			text-align left
 			+below(bp)
 				font-size .7999em
+			li
+				word-wrap break-word
+				margin 20px 0
+				ul
+					width 82%
+					word-wrap break-word
 		img
 			display block
 			max-width 80%
@@ -25,7 +34,7 @@ section.blog-content
 		#layout
 			width 90%
 			margin 0 auto
-		p,h1,h2,h3,h4,ul,ol,iframe,blockquote
+		p,h1,h2,h3,h4,iframe,blockquote
 			word-wrap break-word
 			text-align left
 			width 90%
