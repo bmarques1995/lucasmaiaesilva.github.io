@@ -20,9 +20,9 @@ Primeiramente gostaria de agradecer a todos pelo feedback sobre o blog, muito ob
 
 Antes de explicar o porque do uso dessa tecnologia, seria legal entendermos melhor sua definição.
 
-Bom o MongoDB é um banco de dados não relacional para documentos [JSON](http://www.json.org/), quando digo que ele é "não relacional" significa que **não** guardamos seus dados em tabelas.
+Bom, o MongoDB é um banco de dados não relacional para documentos [JSON](http://www.json.org/), quando digo que ele é "não relacional" significa que **não** guardamos seus dados em tabelas.
 
-Bom, vamos a sintaxe JSON (JavaScript Object Notation):
+Vamos a sintaxe JSON (JavaScript Object Notation):
 
 {% highlight js linenos %}
 {"chave": "valor"}
@@ -34,7 +34,7 @@ Por exemplo:
 {"nome": "Lucas"}
 {% endhighlight %}
 
-Mas é isso? Bom, sim e não. Com base sempre nesta mesma estrutura com chave e valor podemos criar desde arquiteturas simples de dados (basic nesting), até as arquiteturas mais complexas de dados (deep nesting).
+Mas é isso? Na verdade sim e não. Com base sempre nesta mesma estrutura com chave e valor podemos criar desde arquiteturas simples de dados (basic nesting), até as arquiteturas mais complexas de dados (deep nesting).
 
 Não vamos nos atrelar ao código por enquanto, pois não é o objetivo deste post, posteriormente veremos muitos exemplos de códigos no decorrer da série.
 
@@ -42,7 +42,7 @@ Não vamos nos atrelar ao código por enquanto, pois não é o objetivo deste po
 
 MongoDB é Schemaless, ou seja ele não possui Schema, mas como assim?
 
-Bom nos Bancos de dados relacionais, são necessários que todos os dados sigam basicamente a mesma estrutura, ou seja, por exemplo, todos os alunos da escola devem possui ID, notas e Endereços etc. Já em um banco de Dados não relacional isso já não é necessário. Na verdade alguns chamam isso de Dynamic Schema.
+Nos Bancos de dados relacionais, são necessários que todos os dados sigam basicamente a mesma estrutura, ou seja, por exemplo, todos os alunos da escola devem possui ID, notas e Endereços etc. Já em um banco de Dados não relacional isso já não é necessário. Na verdade alguns chamam isso de Dynamic Schema.
 
 Posso ter documentos com "formatos" variados de armazenamento.
 
@@ -53,7 +53,7 @@ Posso ter documentos com "formatos" variados de armazenamento.
 
 ## Por que usar MongoDB?
 
-Bom agora que já vimos algumas features, e sabemos basicamente como funciona, vamos a justificativa:
+E agora que já vimos algumas features, e sabemos basicamente como funciona, vamos a justificativa:
 
 * Banco de Dados em Documentos
 	* Documentos (objetos), são mapeados de uma forma mais "legível" para o programador
