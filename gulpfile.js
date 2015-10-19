@@ -77,7 +77,7 @@ gulp.task('imagemin', function() {
 		.pipe(plumber())
 		.pipe(cache(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true })))
 		.pipe(gulp.dest('assets/img/'));
-});
+});	
 
 /**
  * Watch stylus files for changes & recompile
