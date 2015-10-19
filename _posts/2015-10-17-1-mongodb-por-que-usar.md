@@ -69,4 +69,4 @@ E agora que já vimos algumas features, e sabemos basicamente como funciona, vam
 
 ## Conclusão
 
-O MongoDB é um excelente banco de Dados, e que merece ser utilizado com mais frequência para grandes aplicações, mas como nenhuma tecnologia é bala de prata, antes de usá-lo ele deve ser entendido. Pois o modo de pensar voltado para o lado *não relacional* é basicamente o contrário dos Bancos de dados tradicionais.
+O MongoDB é um excelente banco de Dados, e que merece ser utilizado com mais frequência para grandes aplicações, mas como nenhuma tecnologia é bala de prata, devemos saber quando usá-lo e antes disso ele deve ser entendido. Pois o modo de pensar voltado para o lado *não relacional* é basicamente o contrário dos Bancos de dados tradicionais.
