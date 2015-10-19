@@ -20,7 +20,11 @@ Primeiramente gostaria de agradecer a todos pelo feedback sobre o blog, muito ob
 
 Antes de explicar o porque do uso dessa tecnologia, seria legal entendermos melhor sua definição.
 
-Bom, o MongoDB é um banco de dados não relacional para documentos [JSON](http://www.json.org/), quando digo que ele é "não relacional" significa que **não** guardamos seus dados em tabelas.
+O MongoDB é um banco de dados não relacional, quando digo que ele é "não relacional" significa que **não** guardamos seus dados em tabelas.
+
+O MongoDB armazena seus documentos em disco no formato [BSON](http://bsonspec.org) de serialização. BSON é a representação binária de documentos [JSON](http://json.org). Embora contenha mais tipos de dados que JSON propriamente dito.
+
+O mongo shell é responsável por fazer essa *tradução* entre os drivers de linguagem entre BSON e a linguagem específica da representação do documento.
 
 Vamos a sintaxe JSON (JavaScript Object Notation):
 
