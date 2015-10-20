@@ -24,7 +24,7 @@ O MongoDB é um banco de dados não relacional, quando digo que ele é "não rel
 
 O MongoDB armazena seus documentos em disco no formato [BSON](http://bsonspec.org) de serialização. BSON é a representação binária de documentos [JSON](http://json.org). Embora contenha mais tipos de dados que JSON propriamente dito.
 
-O mongo shell é responsável por fazer essa *tradução* entre os drivers de linguagem entre BSON e a linguagem específica da representação do documento.
+O mongo shell é responsável por fazer essa *tradução* entre os drivers de linguagem BSON e a linguagem específica da representação do documento.
 
 Vamos a sintaxe JSON (JavaScript Object Notation):
 
