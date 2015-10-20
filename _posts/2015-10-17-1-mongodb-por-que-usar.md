@@ -20,7 +20,7 @@ Primeiramente gostaria de agradecer a todos pelo feedback sobre o blog, muito ob
 
 Antes de explicar o porque do uso dessa tecnologia, seria legal entendermos melhor sua definição.
 
-O MongoDB é um banco de dados não relacional, quando digo que ele é "não relacional" significa que **não** guardamos seus dados em tabelas.
+O MongoDB é um banco de dados não relacional, quando digo que ele é "não relacional" significa que **não** relacionamos seus dados em tabelas.
 
 O MongoDB armazena seus documentos em disco no formato [BSON](http://bsonspec.org) de serialização. BSON é a representação binária de documentos [JSON](http://json.org). Embora contenha mais tipos de dados que JSON propriamente dito.
 
