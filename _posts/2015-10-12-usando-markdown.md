@@ -8,7 +8,7 @@ tags:
 - escrita
 - produtividade
 categories:
-twitter_text:
+twitter_text: Guia Markdown PT-BR
 introduction:
 ---
 
