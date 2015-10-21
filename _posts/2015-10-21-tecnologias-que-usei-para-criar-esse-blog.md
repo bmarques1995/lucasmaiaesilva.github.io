@@ -12,6 +12,8 @@ introduction:
 
 Fala Galera, como tem muitas pessoas me perguntando sobre o mesmo assunto, resolvi escrever um guia sobre o que eu usei para criar esse humilde espaço.
 
+Na realidade esse espaço resultado de um reaproveitamento de um [template](https://github.com/willianjusten/will-jekyll-template), que, assim como esse blog, é um projeto Open Source. O template foi feito por [Willian Justen](https://github.com/willianjusten), que é um programador em que me espelho muito, pois acho o jeito que ele programa muito objetivo e organizado.
+
 ## Papel e Caneta
 
 A primeira coisa que eu fiz foi o sketch do Layout básico do blog, então resolvi postar sobre essa etapa também do processo, pois a considero a etapa mais importante de todas. Definitivamente não importa se você passar 80% do tempo de seu projeto simplesmente o planejando e os outros 20% "codando" (essa é a regra que eu criei baseada no princípio de um economista italiano chamado Vilfredo Pareto denominada lei de Pareto), mesmo assim, a sua produtividade será absurda pois assim temos uma visão completa sobre todas as etapas do processo, evitando praticamente todo o retrabalho.
@@ -88,4 +90,4 @@ Antes de mais nada devo dizer que não fiz esse projeto com nenhum método catal
 
 Resolvi criar essa postagem para mostrar como foi feito esse trabalho, uma vez que fiquei muito feliz com os elogios que recebi, e quis fazer esse post até mesmo como uma forma de agradecimento e porque não, de incentivo a todos os que desejam escrever coisas também.
 
-Para os interessados TODO o [código fonte do blog](https://github.com/lucasmaiaesilva/lucasmaiaesilva.github.io) está disponível no [meu github](https://github.com/lucasmaiaesilva), mas já aviso, se forem dar uma olhada não deixe de deixar um Star. :)
+Para os interessados TODO o [código fonte do blog](https://github.com/lucasmaiaesilva/lucasmaiaesilva.github.io) está disponível no [meu github](https://github.com/lucasmaiaesilva), mas já aviso, se forem dar uma olhada não deixe de deixar um Star e deixe também seu comentário aqui. :)
