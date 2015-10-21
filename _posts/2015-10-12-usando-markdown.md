@@ -30,7 +30,7 @@ O próprio Github, usa o Markdown para que seus usuários possam documentar seus
 
 ### Títulos
 
-{% highlight  html %}
+{% highlight  markdown %}
 # Este é o título principal ou <h1>
 ## Esté é o subtítulo ou <h2>
 ### Sub Subtítulo <h3>
@@ -48,7 +48,7 @@ O próprio Github, usa o Markdown para que seus usuários possam documentar seus
 
 ### Elementos de linha
 
-{% highlight html %}
+{% highlight markdown %}
 *Este texto ficará itálico*
 _Este também estará itálico_
 **Este ficará em negrito**
@@ -69,7 +69,7 @@ _Você pode **combinar** eles também_
 
 #### Não ordenadas
 
-{% highlight  html %}
+{% highlight  markdown %}
 * Item 1
 * Item 2
 	* Item 2a
@@ -87,7 +87,7 @@ _Você pode **combinar** eles também_
 
 #### Ordenadas
 
-{% highlight  html %}
+{% highlight  markdown %}
 1. Item 1
 2. Item 2
 	* Item 2a
@@ -105,7 +105,7 @@ _Você pode **combinar** eles também_
 
 ### Imagens
 
-{% highlight  html %}
+{% highlight  markdown %}
 ![GitHub Logo](/images/logo.png)
 {% endhighlight %}
 
@@ -115,7 +115,7 @@ _O que aparece entre colchetes é o que seria renderizado como o atributo **alt*
 
 ### Links
 
-{% highlight  html %}
+{% highlight  markdown %}
 [GitHub](http://github.com) - link com um texto atrelado a ele 
 {% endhighlight %}
  
@@ -123,7 +123,7 @@ _O que aparece entre colchetes é o que seria renderizado como o atributo **alt*
 
 ### Blockquotes (citação)
 
-{% highlight  html %}
+{% highlight  markdown %}
 Seu madruga disse uma vez:
 
 > Não há nada mais trabalhoso,
@@ -137,7 +137,7 @@ Seu madruga disse uma vez:
 
 ### código inline
 
-{% highlight  html %}
+{% highlight  markdown %}
 Eu acho que não deveríamos usar a tag `<br />` nos nossos projetos
 {% endhighlight %}
 
