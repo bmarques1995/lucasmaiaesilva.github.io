@@ -12,7 +12,7 @@ introduction:
 
 Fala Galera, como tem muitas pessoas me perguntando sobre o mesmo assunto, resolvi escrever um guia sobre o que eu usei para criar esse humilde espaço.
 
-Na realidade esse espaço resultado de um reaproveitamento de um [template](https://github.com/willianjusten/will-jekyll-template), que, assim como esse blog, é um projeto Open Source. O template foi feito por [Willian Justen](https://github.com/willianjusten), que é um programador em que me espelho muito, pois acho o jeito que ele programa muito objetivo e organizado.
+Na realidade esse espaço resultado de um reaproveitamento de um [template](https://github.com/willianjusten/will-jekyll-template), que, assim como esse blog, é um projeto Open Source.
 
 ## Papel e Caneta
 
