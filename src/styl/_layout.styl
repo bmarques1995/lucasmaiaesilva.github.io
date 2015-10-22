@@ -75,6 +75,16 @@ section.blog-content
         width 100%
     .header-post
         background #ebebeb
+        position relative
+        .btn-back
+            position absolute
+            top 20px
+            +below(bp)
+                top 50px
+            -webkit-animation btnback 1s alternate linear infinite
+            svg
+                &:hover
+                    //fill #fff
         header
             padding-top 20px
             padding-bottom 35px
@@ -84,13 +94,14 @@ section.blog-content
                 margin-bottom 0
                 margin-top 0
                 text-transform none
+                padding 0 100px
                 +below(bp)
                     margin 16px 0
                     font-size 1.7em
                     font-weight 400
+                    
                 font-size 2em
                 line-height 1.5
-                padding 0 50px
             span
                 +below(bp)
                     font-size .7em
