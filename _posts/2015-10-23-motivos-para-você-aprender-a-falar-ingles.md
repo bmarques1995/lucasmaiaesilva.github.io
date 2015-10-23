@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Motivos para você aprender a falar inglês"
+title: "Motivos para você aprender a falar ingles"
 date: 2015-10-23 20:38:14
 image: '/assets/img/thumbs/english.jpg'
 description: "Alguns motivos pelos quais você precisa aprender a falar inglês"
