@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "1-MongoDB por que usar"
+title: "MongoDB por que usar"
 date: 2015-10-19 10:47:25
 image: '/assets/img/thumbs/mongodb.png'
 description: Entenda o banco de dados, e suas utilidades
