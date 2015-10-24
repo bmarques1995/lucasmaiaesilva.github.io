@@ -41,7 +41,7 @@ Nós programadores, quando encontramos um problema com alguma configuração de 
 6. No Inglês não existem acentos
 7. Em inglês o símbolo @ significa "at", que é uma analogia a qual provedor pertence aquela conta
 
-> Uma outra curiosidade é que a Google mantém um projeto chamado Duolingo, que usa o Re-Captcha (aquelas palavras que digitamos para provarmos que não somos robôs), para criar frases que foram digitalizadas de livros antigos e não reconhecidos pelo mecanismo de reconhecimento de escrita as vezes por que estavam velhos e desgastados demais para isso, e com essa proposta ela também ensina outros idiomas aqueles que não podem pagar cursos e dificilmente teriam acesso a esse conteúdo, e são esses "aprendizes" que fazer essa tradução.
+> Uma outra curiosidade é que a Google mantém um projeto chamado Duolingo, que usa o Re-Captcha (aquelas palavras que digitamos para provarmos que não somos robôs), para criar frases que foram digitalizadas de livros antigos e não reconhecidos pelo mecanismo de reconhecimento de escrita as vezes por que estavam velhos e desgastados demais para isso, e com essa proposta ela também ensina outros idiomas aqueles que não podem pagar cursos e dificilmente teriam acesso a esse conteúdo, e são esses "aprendizes" que fazem essa tradução.
 
 ## Como posso aprender/praticar?
 
