@@ -84,7 +84,7 @@ Similar aos Joins do Mysql, são documentos que para serem "acessados" geralment
 
 Creio que o mais complicado no MongoDB seria mesmo o "modo de pensar" e estruturar seus documentos, uma vez que são quase nulas o número de dependências entre diferentes estruturas de informações.
 
-Se você está iniciando nesse mundo novo de noSql existe uma série muito boa de posts do [Suissa](https://twitter.com/osuissa), que aborda esse tema [MongoDb - Como mudar seu jeito relacional de pensar](http://nomadev.com.br/mongodb-como-mudar-seu-jeito-relacional-de-pensar/).
+Se você está iniciando nesse mundo novo de noSql existe uma série muito boa de posts do [Suissa](https://twitter.com/osuissa), que aborda esse tema MongoDb - Como mudar seu jeito relacional de pensar [parte 1](http://nomadev.com.br/mongodb-como-mudar-seu-jeito-relacional-de-pensar/) e [parte 2](http://nomadev.com.br/mongodb-como-mudar-seu-jeito-relacional-de-pensar-parte-2/).
 
 ## Conclusão
 
