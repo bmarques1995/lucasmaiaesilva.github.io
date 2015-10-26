@@ -47,9 +47,8 @@ Por exemplo um blog em um Schema de Mysql teriam as seguintes tabelas:
 * Posts
 * Categorias
 * Posts_Categorias
-* Autores (dos posts)
+* Autor
 * Comentários
-* Autores dos comentários
 * Tags
 * Posts_tags
 
