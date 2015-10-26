@@ -63,7 +63,7 @@ Cada elemento dentro da collection é considerado um *document*, e a soma de TOD
 	'title': 'MongoDB arquitetura e funcionamento',
 	'body': 'conteúdo do post',
 	'autor': 'Lucas Maia e Silva',
-	'tags': ['banco de dados', 'NoSQL', 'DBA']
+	'tags': ['banco de dados', 'NoSQL', 'DBA'],
 	'comentarios': [
 		{'autor': 'Diego', 'body': 'esse post tá muito foda'},
 		{'autor': 'Pedro', 'body': 'Lucas você é o melhor blogueiro do mundo! #SQN'}
