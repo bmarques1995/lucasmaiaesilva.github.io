@@ -24,7 +24,7 @@ Na parte com a cor azul mais claro da imagem podemos ver a representação de al
 
 Como mencionado, a aplicação conecta-se então ao mongoDB através do driver, e executa as operações requeridas tais como: recuperar dados, operações de CRUD, e o mongoDB retorna operações como por exemplo, o status daquela operação.
 
-Ao entrar em estado de "hosting" o mongod entra em cena, que nada mais é que o gerenciador de processos do MongoDB. Ele gerencia "requests" de dados, acesso e algumas outras operaões de acesso que funcionam em background.
+Ao entrar em estado de "hosting" o mongod entra em cena, que nada mais é que o gerenciador de processos do MongoDB. Ele gerencia "requests" de dados, acesso e algumas outras operações de acesso que funcionam em background.
 
 É assim que esses componentes trabalham juntos, basicamente temos a aplicação no servidor interagindo diretamente com os clientes, e quando a aplicação precisa de alguma informação ou precisa guardar alguma informação ela  se comunica com o mongoDB que fica em um estado de *listening* para *requests* em andamento e ela responde apropriadamente quando esses *requests* estão completos.
 
