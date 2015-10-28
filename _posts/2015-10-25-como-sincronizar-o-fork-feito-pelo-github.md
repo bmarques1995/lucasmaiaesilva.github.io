@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Como sincronizar o fork feito pelo Github"
-date: 2015-10-25 22:00:09
+date: 2015-10-28 20:00:00
 image: '/assets/img/thumbs/github.jpg'
 description:
 tags:
