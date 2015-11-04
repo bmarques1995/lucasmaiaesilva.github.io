@@ -168,7 +168,7 @@ Bem auto-explicativo não? Quando a página for acessada pelo tablet (breakpoint
 
 ### Span
 
-O `span` possui basicamente o mesmo conceito do `col`, a única diferença é que no spam não existe espaçamento.
+O `span` possui basicamente o mesmo conceito do `col`, a única diferença é que no span não existe espaçamento.
 
 {% highlight bash %}
 span(3/12)
