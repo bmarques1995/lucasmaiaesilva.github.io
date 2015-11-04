@@ -6,7 +6,7 @@ image: '/assets/img/thumbs/jeet.jpg'
 description:
 tags:
 categories:
-twitter_text:
+twitter_text: "Usando Jeet com Stylus"
 introduction:
 ---
 
@@ -102,7 +102,7 @@ Entre muitas outras.
 E para inserir um pouco de responsividade ná página? É muito fácil acrescentando o [rupture](http://jenius.github.io/rupture/) (um outro plugin do Stylus), podemos simplesmente fazer isso:
 
 {% highlight sass linenos %}
-var breakpoint = 980px
+breakpoint = 980px
 
 header
    display block
