@@ -122,7 +122,7 @@ footer
 	width 100%
 {% endhighlight %}
 
-O comando `+below()` vem do rupture, ele recebe como parâmetro um valor que determina em qual momento ele irá mudar o comportamento da sua página, mais precisamente ele analisa a quantidade de pixels da tela do seu dispositivo e o que estiver identado como pertencente a ele será executado se for menor que a referência. Se você já tem costume de criar páginas responsivas isso não é muito diferente das convencionais *media queries*.
+O comando `+below()` vem do [rupture](http://jenius.github.io/rupture/), ele recebe como parâmetro um valor que determina em qual momento ele irá mudar o comportamento da sua página, mais precisamente ele analisa a quantidade de pixels da tela do seu dispositivo e o que estiver identado como pertencente a ele será executado se for menor que a referência. Se você já tem costume de criar páginas responsivas isso não é muito diferente das convencionais *media queries*.
 
 ## Jeet
 
