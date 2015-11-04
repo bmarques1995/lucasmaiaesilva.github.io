@@ -6,7 +6,7 @@ image: '/assets/img/thumbs/github.jpg'
 description:
 tags:
 categories:
-twitter_text:
+twitter_text: "Sincronizando Fork no Github"
 introduction:
 ---
 
