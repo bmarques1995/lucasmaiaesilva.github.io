@@ -42,7 +42,7 @@ Bom esse pelo menos é o jeito tradicional de se usar o bootstrap.
 
 Será que chamar TODOS esses *presets* dentro do arquivo css é a **melhor** maneira de se fazer?
 
-Foi pensando nisso que surgiram os [semanthic grids](http://www.smashingmagazine.com/2011/08/the-semantic-grid-system-page-layout-for-tomorrow/) ou grids semânticos.
+Foi pensando nisso que surgiram os [semantic grids](http://www.smashingmagazine.com/2011/08/the-semantic-grid-system-page-layout-for-tomorrow/) ou grids semânticos.
 
 A proposta desses sistemas de grids é usar **somente** o que for necessário dentro da página para formatar os elementos do nosso HTML. Isso é possível graças ao uso dos pré-processadores que "renderizam" os arquivos css dessa maneira. Mas como assim?
 
@@ -76,18 +76,20 @@ Nesse exemplo usarei o Stylus juntamente com o Jeet, nosso arquivo ficaria assim
 
 {% highlight sass linenos %}
 header
-   display block
-   width 100%
+   stack()
 .content
    col(10/12)
 aside
    col(2/12)
 footer
-	display block
-	width 100%
+	stack()
 {% endhighlight %}
 
-Uma ressalva para as linhas 5 e 7 que substituem as classes `col-xs-10` e `col-xs-2` do bootstrap, respectivamente. Viu como é muito mais simples?
+Uma ressalva para as linhas 4 e 6 que substituem as classes `col-xs-10` e `col-xs-2` do bootstrap, respectivamente. Viu a diferença?
+
+Com o uso do Jeet não precisamos "sujar" o html, deixando tudo mais simples e prático.
+
+Isso porque esses grids utilizam mixins e variáveis para definir através do próprio CSS, a largura dos elementos, isto elimina a necessidade de inserir no html classes não-semanticas utilizadas em sistemas fixos.
 
 Fazendo isso, já seríamos capazes de reproduzir uma estrutura semelhante a da imagem acima, ou seja, com pouquíssimas linhas de código, já conseguimos muito resultado. Fazendo dessa maneira temos inúmeras vantagens em relação ao jeito bootstrap de fazer. São algumas delas:
 
@@ -99,7 +101,7 @@ Entre muitas outras.
 
 ### Responsividade
 
-E para inserir um pouco de responsividade ná página? É muito fácil acrescentando o [rupture](http://jenius.github.io/rupture/) (um outro plugin do Stylus), podemos simplesmente fazer isso:
+E para inserir um pouco de responsividade ná página? Existem várias maneiras de se fazer isso, uma delas é acrescentando o [rupture](http://jenius.github.io/rupture/) (um outro plugin do Stylus), com ele instalado podemos simplesmente fazer isso:
 
 {% highlight sass linenos %}
 breakpoint = 980px
@@ -110,23 +112,26 @@ header
 .content
    col(10/12)
    +below(breakpoint)
-      width 100%
-      display block
+      stack()
 aside
    col(2/12)
    +below(breakpoint)
-      width 100%
-      display block
+   stack()
 footer
-	display block
-	width 100%
+   stack()
 {% endhighlight %}
 
 O comando `+below()` vem do [rupture](http://jenius.github.io/rupture/), ele recebe como parâmetro um valor que determina em qual momento ele irá mudar o comportamento da sua página, mais precisamente ele analisa a quantidade de pixels da tela do seu dispositivo e o que estiver identado como pertencente a ele será executado se for menor que a referência. Se você já tem costume de criar páginas responsivas isso não é muito diferente das convencionais *media queries*.
 
 ## Jeet
 
-O Jeet como a própria [documentação](http://jeet.gs/) diz, é um sistema de grid para humanos, ele possui a proposta de ter uma fácil escrita para que possamos descrever uma página de grid do jeito que o ser humano faria e não como uma máquina. Com o Jeet também não precisamos nos atrelar a regras de coluna de doze, ou seja, ele possui uma maior flexibilidade para criarmos nossos grids. Vamos a algumas de suas features.
+Fazendo uso do poder dos pré-processadores, nós podemos usar frações reais ou representativas de código que podem gerar o valor das colunas em pixels e transformando estes valores em porcentagens.
+
+O Jeet como a própria [documentação](http://jeet.gs/) diz, é um sistema de grid para humanos, ele possui a proposta de ter uma fácil leitura e escrita para que possamos descrever uma página de grid do jeito que o ser humano faria diferente de um bootstrap por exemplo, onde a interface não é muito amigável.
+
+By making use of the power of pre-processors, we can now pass real fractions (or float numbers) as context that generates a percentage based width and gutter for grids. We're able to do this while maintaining a consistently sized infinitely nestable gutter.
+
+. Vamos a algumas de suas features.
 
 ### Column ou Col
 
