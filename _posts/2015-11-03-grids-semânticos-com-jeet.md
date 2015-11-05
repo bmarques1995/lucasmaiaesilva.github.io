@@ -131,7 +131,7 @@ O Jeet como a própria [documentação](http://jeet.gs/) diz, é um sistema de g
 
 By making use of the power of pre-processors, we can now pass real fractions (or float numbers) as context that generates a percentage based width and gutter for grids. We're able to do this while maintaining a consistently sized infinitely nestable gutter.
 
-. Vamos a algumas de suas features.
+Vamos a algumas de suas features.
 
 ### Column ou Col
 
