@@ -82,7 +82,7 @@ header
 aside
    col(2/12)
 footer
-	stack()
+   stack()
 {% endhighlight %}
 
 Uma ressalva para as linhas 4 e 6 que substituem as classes `col-xs-10` e `col-xs-2` do bootstrap, respectivamente. Viu a diferença?
