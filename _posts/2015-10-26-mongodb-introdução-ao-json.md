@@ -85,10 +85,26 @@ Como você pode ver é uma estrutura bem simples de dados. Assim como sua leitur
 {% highlight js linenos %}
 [
 	{
-		
+		filme: 'Madrugada dos Mortos',
+		tituloOriginal: 'Dawn of the Dead',
+		ano: 2006,
+		generos: ['suspense', 'terror'],
+		elenco: [
+			{diretor: 'Zack Snyder'},
+			{atores: ['Sarah Polley', 'Ving Rhames', 'Jake Weber']},
+			{autor: 'George A. Romero'}
+		]
 	},
 	{
-
+		filme: 'Contra o Tempo',
+		tituloOriginal: 'Source Code',
+		ano: 2011,
+		generos: ['Ação', 'Aventura', 'Suspense'],
+		elenco: [
+			{diretor: 'Duncan Jones'},
+			{atores: ['Jake Gyllenhaal', 'Michelle M.', 'Vera Farmiga']},
+			{autor: 'Ben Ripley'}
+		]
 	}
 ]
 {% endhighlight %}
