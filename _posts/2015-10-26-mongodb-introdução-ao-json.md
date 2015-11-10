@@ -12,7 +12,7 @@ introduction:
 
 Fala galera mais esforçada do Brasil.
 
-Continuando com a série sobre MongoDB vamos dar uma aprofundada na Série, deixar um pouco os conceitos de lado e começar a por a mão na massa.
+Continuando com a série sobre MongoDB vamos dar uma aprofundada na Série, deixar um pouco  somente os conceitos de lado e começar a ver mais exemplos práticos da coisa.
 
 ## JSON
 
@@ -66,7 +66,7 @@ pessoa.comidasPreferidas[1]; // Churrasco
 pessoa.comidasPreferidas[2]; // Feijoada
 {% endhighlight %}
 
-Como vamos trabalhar esses voltados para o armazenamento em banco de dados, vamos nos deparar com diversas situações, em algumas das vezes as *collections* de dados ficarão bem simples em sua estrutura e em outras as estruturas ficarão um tanto quanto complexas. As estruturas simples em formato JSON são chamadas de *Basic Nesting*, e as complexas de *Deep Nesting*.
+Como vamos trabalhar esses dados voltados para o armazenamento em banco, vamos nos deparar com diversas situações, em algumas das vezes as *collections* de dados ficarão bem simples em sua estrutura e em outras as estruturas ficarão um tanto quanto complexas. As estruturas simples em formato JSON são chamadas de *Basic Nesting*, e as complexas de *Deep Nesting*.
 
 ### Basic Nesting
 
