@@ -6,6 +6,7 @@ image: '/assets/img/thumbs/mongodb.png'
 description: "Entendendo as features do MongoDB e sua arquitetura"
 tags:
 categories:
+- MongoDB
 twitter_text: "Post explicando como funciona o mongoDB "
 introduction:
 ---

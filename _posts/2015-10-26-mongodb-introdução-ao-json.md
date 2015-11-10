@@ -6,6 +6,7 @@ image: '/assets/img/thumbs/mongodb.png'
 description:
 tags:
 categories:
+- MongoDB
 twitter_text: 'MongoDB Introdução ao JSON'
 introduction:
 ---

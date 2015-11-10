@@ -6,6 +6,7 @@ image: '/assets/img/thumbs/mongodb.png'
 description: Entenda o banco de dados, e suas utilidades
 tags:
 categories:
+- MongoDB
 twitter_text: Por que usar MongoDB
 introduction:
 ---
