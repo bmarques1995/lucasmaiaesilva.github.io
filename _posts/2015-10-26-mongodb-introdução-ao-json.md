@@ -3,7 +3,7 @@ layout: post
 title: "MongoDB introdução ao JSON"
 date: 2015-11-9 21:22:13
 image: '/assets/img/thumbs/mongodb.png'
-description:
+description: Descobrindo mais sobre os Objetos Javascript, leitura e escrita
 tags:
 categories:
 - MongoDB

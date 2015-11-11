@@ -3,7 +3,7 @@ layout: post
 title: "Tecnologias que usei para criar esse blog"
 date: 2015-10-21 10:19:38
 image: '/assets/img/thumbs/front.png'
-description: "Um breve guia sobre os framewoks e libs usadas para criação do Blog"
+description: Um breve guia sobre os framewoks e libs usadas para criação do Blog
 tags:
 categories:
 twitter_text: "Tecnologias usadas neste humilde Blog"

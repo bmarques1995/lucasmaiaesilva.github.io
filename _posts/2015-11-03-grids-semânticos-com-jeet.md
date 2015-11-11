@@ -3,7 +3,7 @@ layout: post
 title: "Grids Semânticos com Jeet"
 date: 2015-11-03 18:35:04
 image: '/assets/img/thumbs/jeet.jpg'
-description:
+description: Aprenda Grids semânticos utilizando o Jeet
 tags:
 categories:
 twitter_text: "Usando Jeet com Stylus"
