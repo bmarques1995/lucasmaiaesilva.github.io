@@ -1,12 +1,10 @@
 - id: 1
-  nome: Tom Preston-Werner
-  image: /assets/img/thumbs/front.png
-  description: aksjdhkasjdhaskjdhskajdh modal 1
-  link: http://site.com.br
-  link-github: http://github.com/lucasmaiaesilva/resume
+  nome: SVG Experiment
+  image: /assets/img/portfolio/svgexperiment.png
+  description: > #
+    <p>SVG Experiment é um projeto de teste feito no Natal de 2014.</p>
+    <p>Este é um projeto simples, do qual eu e meu amigo Willian Justen, nos orgulhamos muito, pois serviu de portfolio para suas palestras e para disseminar essa tecnologia aqui no Brasil.</p>
+    <p>Resumindo, tenho orgulho pois é um projeto que foi muito importante para a comunidade Open Source SVG no Brasil.</p>
 
-- id: 2
-  nome: Tom Preston-Werner
-  image: /assets/img/thumbs/front.png
-  description: aksjdhkasjdhaskjdhskajdh modal 2
-  link: http://site.com.br
+  link: "http://lucasmaiaesilva.com.br/svgexperiment/"
+  link-github: "https://github.com/lucasmaiaesilva/svgexperiment"
