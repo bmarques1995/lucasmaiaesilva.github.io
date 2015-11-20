@@ -1,11 +1,12 @@
-- nome: Tom Preston-Werner
-  image: mojombo
-  description: aksjdhkasjdhaskjdhskajdh
+- id: 1
+  nome: Tom Preston-Werner
+  image: /assets/img/thumbs/front.png
+  description: aksjdhkasjdhaskjdhskajdh modal 1
+  link: http://site.com.br
+  link-github: http://github.com/lucasmaiaesilva/resume
 
-- nome: Parker Moore
-  image: parkr
-  description: aksdadnnnnnashdakjsdhakjsdhjk
-
-- nome: Liu Fengyun
-  image: liufengyun
-  description: aksdkjadahsdhhhhhhhh
+- id: 2
+  nome: Tom Preston-Werner
+  image: /assets/img/thumbs/front.png
+  description: aksjdhkasjdhaskjdhskajdh modal 2
+  link: http://site.com.br
