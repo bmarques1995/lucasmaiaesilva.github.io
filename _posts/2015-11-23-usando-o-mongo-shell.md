@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introdução ao Mongo Shell"
+title: "Usando o Mongo Shell"
 date: 2015-11-23 09:44:51
 image: '/assets/img/thumbs/mongodb.png'
 description: 'Aprendendo a setar e usar o Mongo Shell'
