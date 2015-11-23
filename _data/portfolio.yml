@@ -8,3 +8,12 @@
 
   link: "http://lucasmaiaesilva.com.br/svgexperiment/"
   link-github: "https://github.com/lucasmaiaesilva/svgexperiment"
+
+- id: 2
+  nome: Guia de Bolso SVG
+  image: /assets/img/portfolio/svgpocketguide.png
+  description: > #
+    <p>O guia de bolso SVG é um livro escrito por Joni Trythall, no qual tive o prazer de trabalhar na tradução do livro juntamente com Willian Justen.</p>
+    <p>Este é um guia, escrito para ajudar a todos a trabalhar os conceitos e aplicações do SVG.</p>
+
+  link: "https://github.com/jonitrythall/svgpocketguide/blob/master/svgpocketguide-ptbr.md"
