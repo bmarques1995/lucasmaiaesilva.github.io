@@ -22,7 +22,7 @@
 
 
 
-<h2>Meus projetos</h2>
+<h2 class="title">Meus projetos</h2>
 <div class="posts">
 {% for project in site.data.portfolio reversed %}
 	<div class="post">
@@ -31,8 +31,6 @@
         <div class="t-post-info">
             <a href="#openModal{{ project.id }}"><h1>{{ project.nome }}</h1></a>
         </div>
-
-
 	</div>
 {% endfor %}
 </div>
