@@ -80,7 +80,9 @@ Legal, mas e se eu tiver os arquivos prontos para o banco mas em um arquivo sepa
 
 ## Importando database no MongoDB
 
-A sintaxe para importar os dados no MongoDB é `mongoimport -d [nomeDB] -c [nomeCollection] [arquivo.js]`.
+A sintaxe para importar os dados no MongoDB é: 
+
+`mongoimport -d [nomeDB] -c [nomeCollection] [arquivo.js]`
 
 {% highlight bash %}
 mongoimport -d curso -c turmas turmas.js
@@ -94,7 +96,7 @@ Para saber mais sobre o mongoimport [clique aqui](https://docs.mongodb.org/v2.4/
 
 Para exportar os dados a sintaxe é basicamente a mesma, porém com devemos informar o caminho do arquivo.
 
-`mongoexport -d [nomeDB] -c [nomeCollection] --out [diretorioExport/arquivo.js]`
+`mongoexport -d [nomeDB] -c [nomeCollection] --out [dirExport/arquivo.js]`
 
 {% highlight bash %}
 mongoexport -d curso -c turmas --out backups/01-10-2015/turmas.json
@@ -105,11 +107,11 @@ Para saber mais sobre o export [clique aqui](https://docs.mongodb.org/manual/ref
 Podemos também adicionar uma query aos comandos se quisermos pegar ou exportar somente parte do arquivo, isso mesmo, eu sei é genial.
 
 {% highlight bash %}
-mongoexport -d sistema -c usuarios -q '{ email: 'lucasmaiaesilva@gmail.com' }' --out backup/lucas.json
+mongoexport -d sistema -c usuarios -q "{ email: 'lucasmaiaesilva@gmail.com' }" --out backup/lucas.json
 {% endhighlight %}
 
 Se você ainda não sabe trabalhar as queries de consulta, não se preocupe pois o próximo post da série irá explicar isso com muito mais detalhes. Mas resumindo o exemplo acima irá varrer toda a *collection* usuarios e pegar o *document* ou os *documents* que tiverem o campo de email lucasmaiaesilva@gmail.com.
 
 ## Conclusão
 
-Este post foi criado para explicar melhor a estrutura do workflow do Mongo através do Mongo Shell, pois entender isso é extremamente importante para testarmos nossas queries. Se tiverem alguma dúvida mandem nos comentários, pois a partir daqui, usaremos muito essa estrutura do Mongo Shell. É isso, nos vemos na próxima.
+Este post foi criado para explicar melhor a estrutura do workflow do Mongo através do Mongo Shell, pois entender isso, é extremamente importante para testarmos nossas queries. Se tiverem alguma dúvida mandem nos comentários, pois a partir daqui, usaremos muito essa estrutura do Mongo Shell. É isso, nos vemos na próxima.
