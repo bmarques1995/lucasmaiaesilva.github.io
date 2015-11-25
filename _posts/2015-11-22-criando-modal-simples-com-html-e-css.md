@@ -88,8 +88,6 @@ Primeiramente precisamos formatar nossa classe modal para que no momento em que 
 }
 {% endhighlight %}
 
-The :target pseudo-class represents the unique element, if any, with an id matching the fragment identifier of the URI of the document..
-
 A pseudo-classe `:target` representa um único elemento, se existir algum `id` fragmentado na URL, ela será formatado conforme os atributos passados no formato da classe acima. Para saber mais sobre o `:target` [clique aqui](https://developer.mozilla.org/pt-BR/docs/Web/CSS/%3Atarget).
 
 A propriedade `pointer-events` permite autores controlarem sob qualquer circustancia(se houver) um elemento gráfico particular podendo ser o alvo do evento do mouse. Ela configurada como `auto` significa que o mouse irá tratar todos os eventos não evidenciados como simples partes do site, ou seja, nosso modal será uma parte do site, assim como todo o restante dele. Para saber mais sobre `pointer-events` [clique aqui](https://developer.mozilla.org/pt-BR/docs/Web/CSS/pointer-events).
