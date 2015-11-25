@@ -46,7 +46,7 @@ Juntamente com a referência do id criamos uma classe `modal` que será o que ir
 	<a href="#fechar" title="Fechar" class="fechar">x</a>
 	<h2>Janela Modal</h2>
 	<p>Esta é uma simples janela de modal.</p>
-	<p>Você pode fazer qualquer coisa aqui, página de Login, pop-ups, ou formulários de login ou criar conta</p>
+	<p>Você pode fazer qualquer coisa aqui, página de Login, pop-ups, ou formulários</p>
 </div>
 {% endhighlight %}
 
