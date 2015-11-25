@@ -19,7 +19,7 @@ Como dito anteriormente na série agora vamos iniciar com os posts mais técnico
 
 ## Mongo Shell
 
-Iremos usar o Mongo Shell para testar query por query nos próximos posts da série, para isso basta que você tenha feito a [instalação](https://docs.mongodb.org/manual/installation/) do MongoDB em sua máquina e também o `mongod` ativado em sua máquina, pois é ele que faz o "host" para acessar o banco. Para fazer isso abra duas janelas ou abas e execute os comandos.
+Iremos usar o Mongo Shell para testar query por query nos próximos posts da série, para isso basta que você tenha feito a [instalação](https://docs.mongodb.org/manual/installation/) do MongoDB em sua máquina e também o `mongod` ativado em sua máquina, pois é ele que faz o "host" para acessar o banco, em outras palavras é ele quem levanta o serviço do Mongo, o banco de fato. Para fazer isso abra duas janelas ou abas e execute os comandos.
 
 Na primeira janela/aba do terminal:
 
