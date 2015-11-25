@@ -110,7 +110,7 @@ Podemos também para finalizar, estilizar nossa modal para que ela fique mais ap
 
 {% highlight css %}
 .fechar {
-position: absolute;
+	position: absolute;
 	width: 30px;
 	right: -15px;
 	top: -20px;
