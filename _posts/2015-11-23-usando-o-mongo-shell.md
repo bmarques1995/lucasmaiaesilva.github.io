@@ -35,7 +35,7 @@ Em seguida vamos ativar o Mongo Shell:
 mongo
 {% endhighlight %}
 
-É importante que você siga essa sequência, pois o Mongo Shell não funciona sem o mongod aberto, então ficamos basicamente assim:
+É importante que você siga essa sequência, pois o Mongo Shell não funciona sem o mongod aberto, pois como dito anteriormente o `mongod` é o serviço que vai nos permitir acessar e usar o banco, então ficamos basicamente assim:
 
 [![mongo e mongodb](/assets/img/posts/serie-mongo-db/mongo-mongod.png)](/assets/img/posts/serie-mongo-db/mongo-mongod.png)
 
