@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Criando modal simples com HTML e CSS"
-date: 2015-11-22 10:42:49
+date: 2015-11-25 10:42:49
 image: '/assets/img/thumbs/front.png'
 description: 'Criando um modal simples, sem a utilização de Javascript'
 tags:
