@@ -13,7 +13,7 @@ introduction:
 
 ## Introdução
 
-Após vermos as *collections* e seus respectivos nomes, podemos usar as queries específicas de CRUD nas *collections*.
+No post anterior vimos o que é, e como funciona o Mongo Shell, isso é importante pois é por ele que iremos trabalhar as queries do banco. Após vermos também como trabalhar com as *collections* e seus respectivos nomes, podemos usar as queries específicas de CRUD nas *collections*.
 
 Pra quem vêm do mundo do SQL o seguinte comparativo de funções, pode ajudar a ter uma melhor ideia dessas operações:
 
