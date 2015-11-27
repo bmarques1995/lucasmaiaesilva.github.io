@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MongoDB operações de CRUD"
-date: 2015-11-20 10:00:18
+date: 2015-11-27 10:00:18
 image: '/assets/img/thumbs/mongodb.png'
 description: 'Aprofundando as funcionalidades do MongoDB'
 tags:
