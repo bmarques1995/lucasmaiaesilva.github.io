@@ -30,7 +30,7 @@ Crie quadrados e preencha-os com as cores desejadas deixe um espaçamento entre 
 
 No exemplo foram criadas 3 cores, mas você pode usar quantas cores quiser, mas quanto maior o número de cores que você utilizar, menor é a chance de seu desenho ter uma boa harmonia entre as cores e menor é a chance de ele ficar bonito. Em outras palavras menos é mais.
 
-Em seguida, basta selecionar os três quadrados ao mesmo tempo e ir até o menu *object / Blend / Blend Options...*. Ao acessar esse menu irá aparecer uma janela de confifuração, neste caso deixaremos o *Spacing* como *Specified Steps* pois queremos mostrar os quadros em um efeito de transição o valor desse atributo como 2 (número de quadros).
+Em seguida, basta selecionar os três quadrados ao mesmo tempo e ir até o menu *object / Blend / Blend Options...*. Ao acessar esse menu irá aparecer uma janela de configuração, neste caso deixaremos o *Spacing* como *Specified Steps* pois queremos mostrar os quadros em um efeito de transição o valor desse atributo como 2 (número de quadros).
 
 ![Painel config Blend Options](/assets/img/posts/paleta-cores-illustrator/window-blend-tool.jpg)
 
