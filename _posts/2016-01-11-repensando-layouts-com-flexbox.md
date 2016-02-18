@@ -14,7 +14,7 @@ introduction:
 
 Fala galera, devo pedir desculpas pois fiquei algum (muito) tempo sem postar nada, mas gostaria de me redimir criando um post, sobre um pequeno projeto que fiz há pouco tempo.
 
-Gostaria de agradecer a todos os feedbacks que recebi por esses dias, e dois deles em específico, que foram o de Willian Justen que me referenciou em sua postagem de virada de ano, e minha prima Livia Siqueira, que, apesar de muito nova, me disse que lê o blog e disse que se interessa pela área e quando crescer irá se tornar uma excelente programadora tenho certeza. Esse tipo de coisa me motiva muito obrigado a todos.
+Gostaria de agradecer a todos os feedbacks que recebi por esses dias, e dois deles em específico, que foram o de [@Willian_justen](https://twitter.com/@Willian_justen) que me referenciou em sua postagem de virada de ano, e minha prima Livia Siqueira, que, apesar de muito nova, me disse que lê o blog e disse que se interessa pela área e quando crescer irá se tornar uma excelente programadora tenho certeza. Esse tipo de coisa me motiva muito obrigado a todos.
 
 ## FlexBox
 
