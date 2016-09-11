@@ -17,3 +17,13 @@
     <p>Este é um guia, escrito para ajudar a todos a trabalhar os conceitos e aplicações do SVG.</p>
 
   link: "https://github.com/jonitrythall/svgpocketguide/blob/master/svgpocketguide-ptbr.md"
+
+
+- id: 3
+  nome: Pendulo de Newton
+  image: /assets/img/portfolio/newton-pendulum.png
+  description: > #
+    <p>Após a palestra feita no evento GDG Experience, algumas pessoas me pediram para que criasse um experimento utilizando JS e Motion Design.</p>
+    <p>Resolvi então criar um pêndulo de Newton, utilizando a Biblioteca GreenSock js, ou também conhecida como GSAP.</p>
+
+  link: "http://lucasmaiaesilva.com.br/loading-newton/"
