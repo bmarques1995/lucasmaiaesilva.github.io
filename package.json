@@ -1,6 +1,6 @@
 {
   "name": "lucasmaiaesilva.github.io",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Este blog foi criado, com o intuito de ajudar Devs iniciando sua carreira com Desenvolvimento Web.",
   "main": "gulpfile.js",
   "scripts": {
