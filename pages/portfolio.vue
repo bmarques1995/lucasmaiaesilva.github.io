@@ -1,5 +1,5 @@
 <template>
   <section class="container">
-    Home page
+    portfolio
   </section>
 </template>
