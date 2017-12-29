@@ -2,14 +2,14 @@
   <section class="card">
     <header>
       <h2 class="card-name">
-        Desenvolvendo um app de finanças com React Native
+        {{ post.title }}
       </h2>
     </header>
     <div class="card-image">
-      <img src="https://cdn.dribbble.com/users/371710/screenshots/4050880/keep_the_balance.png" alt="" />
+      <img :src="post.image.url" :alt="post.image.alt" />
     </div>
     <footer class="card-info">
-      <span>23/05/2015</span>
+      <span>{{ post.date }}</span>
     </footer>
   </section>
 </template>
@@ -43,3 +43,9 @@
     padding: .7rem 0;
   }
 </style>
+
+<script>
+export default {
+  props: ['post']
+}
+</script>
