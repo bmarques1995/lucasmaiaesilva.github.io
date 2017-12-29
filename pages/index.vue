@@ -1,5 +1,15 @@
 <template>
   <section class="container">
-    Home page
+    <PostThumb />
   </section>
 </template>
+
+<script>
+import PostThumb from '~/components/PostThumb.vue'
+
+export default {
+  components: {
+    PostThumb
+  }
+}
+</script>
