@@ -2,11 +2,13 @@
   <section class="card">
     <header>
       <h2 class="card-name">
-        {{ post.title }}
+        <nuxt-link class="card-title" to="/posts/abc">{{ post.title }}</nuxt-link></li>
       </h2>
     </header>
     <div class="card-image">
-      <img :src="post.image.url" :alt="post.image.alt" />
+      <nuxt-link class="card-title" to="/posts/abc">
+        <img :src="post.image.url" :alt="post.image.alt" />
+      </nuxt-link>
     </div>
     <footer class="card-info">
       <span>{{ post.date }}</span>
@@ -21,6 +23,11 @@
     box-shadow: 0 1px 2px rgba(0,0,0,0.07);
     padding: 10px;
     margin: 2rem 0;
+  }
+
+  .card-title {
+    color: #444;
+    font-size: 1.3rem;
   }
 
   .card-name {
