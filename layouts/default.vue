@@ -60,6 +60,21 @@ a:hover {
 .shaddow {
   box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
 }
+
+@media screen and (min-width: 768px) {
+  .container {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 1012px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 </style>
 
 
