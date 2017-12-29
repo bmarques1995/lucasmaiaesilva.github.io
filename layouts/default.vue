@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="App-blog">
     <section class="header-wrapper shaddow">
       <div class="container">
         <header class="header">
@@ -8,7 +8,11 @@
         </header>
       </div>
     </section>
-    <nuxt/>
+    <Hero />
+    <section class="content">
+      <nuxt/>
+    </section>
+    <Footer />
   </div>
 </template>
 
@@ -24,7 +28,17 @@ html {
 }
 
 body {
-  background: #f38181;
+  background: #f1f1f1;
+}
+
+.App-blog {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex-grow: 1;
 }
 
 .header-wrapper {
@@ -81,11 +95,15 @@ a:hover {
 <script>
 import Logo from '~/components/Logo.vue'
 import Navigation from '~/components/Navigation.vue'
+import Hero from '~/components/Hero.vue'
+import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
     Logo,
-    Navigation
+    Navigation,
+    Hero,
+    Footer
   }
 }
 </script>
