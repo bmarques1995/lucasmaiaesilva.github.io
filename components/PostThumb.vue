@@ -2,11 +2,11 @@
   <section class="card">
     <header>
       <h2 class="card-name">
-        <nuxt-link class="card-title" to="/posts/abc">{{ post.title }}</nuxt-link></li>
+        <nuxt-link class="card-title" :to="link">{{ post.title }}</nuxt-link></li>
       </h2>
     </header>
     <div class="card-image">
-      <nuxt-link class="card-title" to="/posts/abc">
+      <nuxt-link class="card-title" :to="link">
         <img :src="post.image.url" :alt="post.image.alt" />
       </nuxt-link>
     </div>
@@ -60,6 +60,9 @@
 
 <script>
 export default {
-  props: ['post']
+  props: ['post'],
+  data: function () {
+    return { link: `/posts/${this.post.slug}` }
+  }
 }
 </script>
