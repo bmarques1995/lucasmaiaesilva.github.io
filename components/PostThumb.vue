@@ -22,7 +22,8 @@
     border-radius: 2px;
     box-shadow: 0 1px 2px rgba(0,0,0,0.07);
     padding: 10px;
-    margin: 2rem 0;
+    margin: 2rem auto;
+    max-width: 400px;
   }
 
   .card-title {
@@ -48,6 +49,12 @@
     font-size: .8rem;
     color: #aaa;
     padding: .7rem 0;
+  }
+  @media screen and (min-width: 1024px) {
+    .card {
+      margin: 1rem 1%;
+      width: 31.3333%;
+    }
   }
 </style>
 
