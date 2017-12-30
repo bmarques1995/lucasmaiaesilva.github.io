@@ -18,6 +18,7 @@
   background: #fff;
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  margin-bottom: 5rem;
 }
 
 .post-content {
@@ -27,9 +28,26 @@
 
 .post-content h1 {
   margin: 2rem 0;
+  font-size: 1.6rem;
 }
 
 .post p {
   margin-bottom: 3rem;
+  font-size: 1.15rem;
+}
+
+@media screen and (min-width: 734px) {
+  .post-content {
+    padding: 2rem;
+  }
+  .post-content h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .post-content {
+    padding: 2rem 4rem;
+  }
 }
 </style>
