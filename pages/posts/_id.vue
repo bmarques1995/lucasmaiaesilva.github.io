@@ -1,11 +1,6 @@
 <template>
   <article class="post container">
-    <div class="post-content">
-      <h1>Novo Post de Exemplo</h1>
-      <p>When building React applications, it's very common to see the size of the app grow largely due to the number of dependencies in use. This happens when a section of the app (or route) might import a large number of components that are not necessary when it first loads. This can reduce the initial load time of the app.</p>
-      <p>So how do we approach this? How do we make sure that the app only loads what is needed thereby avoiding bloat in the code?</p>
-      <strong>{{ post }}</strong>
-    </div>
+    <div class="post-content" v-html="postContent"></div>
   </article>
 </template>
 
@@ -53,10 +48,20 @@
 }
 </style>
 
-<script>
+<script type="text/babel">
 export default {
+  computed: {
+    // post () {
+    //   return this.$store.state.post
+    // },
+    postContent () {
+      // let post = this.$store.state.post
+      return require(`~/assets/posts/2015-10-12-usando-markdown.md`)
+    }
+  },
   asyncData ({ params }) {
     return { post: JSON.stringify(params) }
   }
 }
+
 </script>

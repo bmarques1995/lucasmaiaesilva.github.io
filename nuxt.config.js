@@ -3,33 +3,47 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'blog',
+    title: 'Andre Liem - full stack web developer, VueJS, Laravel, PHP',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'meu blog pessoal' }
+      { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { href: 'https://fonts.googleapis.com/css?family=Nunito', rel: 'stylesheet' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
   /*
-  ** Customize the progress bar color
+  ** Customize the progress-bar color
   */
-  loading: {
-    color: '#f38181'
-    // height: '2px'
-  },
+  loading: { color: '#f38181' },
   /*
   ** Build configuration
   */
   build: {
+    loaders: [
+      {
+        test: /\.(png|jpe?g|gif|svg)$/,
+        loader: 'url-loader',
+        query: {
+          limit: 1000, // 1KO
+          name: 'img/[name].[hash:7].[ext]'
+        }
+      },
+      {
+        test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
+        loader: 'url-loader',
+        query: {
+          limit: 1000, // 1 KO
+          name: 'fonts/[name].[hash:7].[ext]'
+        }
+      }
+    ],
     /*
-    ** Run ESLint on save
+    ** Run ESLINT on save
     */
     extend (config, ctx) {
-      if (ctx.dev && ctx.isClient) {
+      if (ctx.isClient) {
         config.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,
@@ -38,5 +52,10 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  modules: [
+    // '@nuxtjs/font-awesome',
+    // ['@nuxtjs/google-analytics', { ua: 'UA-104010-6' }],
+    ['@nuxtjs/markdownit', { html: true, linkify: true, breaks: true }]
+  ]
 }
