@@ -10,9 +10,9 @@
     </section>
     <Hero />
     <section class="content">
-      <nuxt/>
+      <nuxt />
     </section>
-    <Footer />
+    <FooterLayout />
   </div>
 </template>
 
@@ -96,14 +96,14 @@ a:hover {
 import Logo from '~/components/Logo.vue'
 import Navigation from '~/components/Navigation.vue'
 import Hero from '~/components/Hero.vue'
-import Footer from '~/components/Footer.vue'
+import FooterLayout from '~/components/Footer.vue'
 
 export default {
   components: {
     Logo,
     Navigation,
     Hero,
-    Footer
+    FooterLayout
   }
 }
 </script>

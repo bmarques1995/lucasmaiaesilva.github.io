@@ -2,12 +2,12 @@
   <section class="card">
     <header>
       <h2 class="card-name">
-        <nuxt-link class="card-title" :to="link">{{ post.title }}</nuxt-link></li>
+        <nuxt-link class="card-title" :to="link">{{ post.title }}</nuxt-link>
       </h2>
     </header>
     <div class="card-image">
       <nuxt-link class="card-title" :to="link">
-        <img :src="post.image.url" :alt="post.image.alt" />
+        <img :src="img" :alt="post.image.alt" />
       </nuxt-link>
     </div>
     <footer class="card-info">
@@ -62,7 +62,11 @@
 export default {
   props: ['post'],
   data: function () {
-    return { link: `/posts/${this.post.slug}` }
+    const image = require(`~/assets/img/thumbs/${this.post.image.url}`)
+    return {
+      link: `/posts/${this.post.slug}`,
+      img: image
+    }
   }
 }
 </script>

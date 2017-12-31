@@ -1,6 +1,6 @@
 <template>
   <section class="cards-posts container">
-    <PostThumb v-for="post in posts" :post="post" />
+    <PostThumb v-for="post in posts" :key="post.slug" :post="post" />
   </section>
 </template>
 
