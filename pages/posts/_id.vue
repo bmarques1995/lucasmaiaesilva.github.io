@@ -51,17 +51,11 @@
 <script type="text/babel">
 export default {
   computed: {
-    // post () {
-    //   return this.$store.state.post
-    // },
     postContent () {
-      // let post = this.$store.state.post
-      return require(`~/assets/posts/2015-10-12-usando-markdown.md`)
-    }
+      const { id } = this.$route.params
+      return require(`~/assets/posts/${id}.md`)
+    },
   },
-  asyncData ({ params }) {
-    return { post: JSON.stringify(params) }
-  }
 }
 
 </script>
