@@ -54,8 +54,8 @@ export default {
     postContent () {
       const { id } = this.$route.params
       return require(`~/assets/posts/${id}.md`)
-    },
-  },
+    }
+  }
 }
 
 </script>
