@@ -130,9 +130,9 @@ O comando `column` (também usado como `col`) talvez seja a feature mais "forte"
 
 Esse comando é usado quando queremos "pular" o espaço passado por parâmetro. Segue um exemplo de sua utilização:
 
-{% highlight bash %}
+```styl
 col(1/4, offset: 1/4)
-{% endhighlight %}
+```
 
 #### Cycle
 
