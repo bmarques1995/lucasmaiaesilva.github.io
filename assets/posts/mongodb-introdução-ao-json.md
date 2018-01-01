@@ -11,16 +11,16 @@ JSON é um acrônimo para Javascript Object Notation, quando nos referimos a um 
 
 ```js
 var pessoa = {
-	nome: 'Lucas',
-	sobrenome: 'Maia',
-	idade: 25,
-	peso: 78,
-	altura: 1.78,
-	nomeCompleto: function(){
-		return nome + ' ' + sobrenome;
-	},
-	comidasPreferidas: ['Hamburguer', 'Churrasco', 'Feijoada'],
-	nerd: true
+  nome: 'Lucas',
+  sobrenome: 'Maia',
+  idade: 25,
+  peso: 78,
+  altura: 1.78,
+  nomeCompleto: function(){
+    return nome + ' ' + sobrenome;
+  },
+  comidasPreferidas: ['Hamburguer', 'Churrasco', 'Feijoada'],
+  nerd: true
 }
 ```
 
@@ -61,9 +61,9 @@ Como vamos trabalhar esses dados voltados para o armazenamento em banco, vamos n
 
 ```js
 {
-	produto: "notebook",
-	atributos: { tipo: "Mac", caro: true },
-	estoque: 5
+  produto: "notebook",
+  atributos: { tipo: "Mac", caro: true },
+  estoque: 5
 }
 ```
 
@@ -73,28 +73,28 @@ Como você pode ver é uma estrutura bem simples de dados. Assim como sua leitur
 
 ```js
 [
-	{
-		filme: 'Madrugada dos Mortos',
-		tituloOriginal: 'Dawn of the Dead',
-		ano: 2006,
-		generos: ['suspense', 'terror'],
-		elenco: [
-			{diretor: 'Zack Snyder'},
-			{atores: ['Sarah Polley', 'Ving Rhames', 'Jake Weber']},
-			{autor: 'George A. Romero'}
-		]
-	},
-	{
-		filme: 'Contra o Tempo',
-		tituloOriginal: 'Source Code',
-		ano: 2011,
-		generos: ['Ação', 'Aventura', 'Suspense'],
-		elenco: [
-			{diretor: 'Duncan Jones'},
-			{atores: ['Jake Gyllenhaal', 'Michelle M.', 'Vera Farmiga']},
-			{autor: 'Ben Ripley'}
-		]
-	}
+  {
+    filme: 'Madrugada dos Mortos',
+    tituloOriginal: 'Dawn of the Dead',
+    ano: 2006,
+    generos: ['suspense', 'terror'],
+    elenco: [
+      {diretor: 'Zack Snyder'},
+      {atores: ['Sarah Polley', 'Ving Rhames', 'Jake Weber']},
+      {autor: 'George A. Romero'}
+    ]
+  },
+  {
+    filme: 'Contra o Tempo',
+    tituloOriginal: 'Source Code',
+    ano: 2011,
+    generos: ['Ação', 'Aventura', 'Suspense'],
+    elenco: [
+      {diretor: 'Duncan Jones'},
+      {atores: ['Jake Gyllenhaal', 'Michelle M.', 'Vera Farmiga']},
+      {autor: 'Ben Ripley'}
+    ]
+  }
 ]
 ```
 

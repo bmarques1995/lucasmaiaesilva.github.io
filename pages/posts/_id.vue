@@ -36,6 +36,14 @@
   padding: 2rem 4rem;
 }
 
+.post-content p > code {
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+  padding: 2px 4px;
+  font-size: 90%;
+}
+
 .post-content pre {
   margin: 3rem 0;
 }  

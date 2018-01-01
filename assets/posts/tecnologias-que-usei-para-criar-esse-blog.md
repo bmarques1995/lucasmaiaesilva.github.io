@@ -64,13 +64,13 @@ Minhas folhas de estilo são escritas em [Stylus](https://learnboost.github.io/s
 
 ```styl
 body
-	background red
+  background red
 
 .container
-	width 90%
-	margin 0 auto
-	#logo
-		width 200px
+  width 90%
+  margin 0 auto
+  #logo
+    width 200px
 ```
 
 ## Conclusão

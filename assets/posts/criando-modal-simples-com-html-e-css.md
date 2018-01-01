@@ -19,7 +19,7 @@ Vamos a criação:
 <a href="#abrirModal">Open Modal</a>
 
 <div id="abrirModal" class="modal">
-	<!-- conteúdo do modal aqui -->
+  <!-- conteúdo do modal aqui -->
 </div>
 ```
 
@@ -33,10 +33,10 @@ Juntamente com a referência do id criamos uma classe `modal` que será o que ir
 <a href="#abrirModal">Open Modal</a>
 
 <div id="abrirModal" class="modal">
-	<a href="#fechar" title="Fechar" class="fechar">x</a>
-	<h2>Janela Modal</h2>
-	<p>Esta é uma simples janela de modal.</p>
-	<p>Você pode fazer qualquer coisa aqui, página de Login, pop-ups, ou formulários</p>
+  <a href="#fechar" title="Fechar" class="fechar">x</a>
+  <h2>Janela Modal</h2>
+  <p>Esta é uma simples janela de modal.</p>
+  <p>Você pode fazer qualquer coisa aqui, página de Login, pop-ups, ou formulários</p>
 </div>
 ```
 
@@ -48,19 +48,19 @@ Agora que temos a nossa estrutura HTML, podemos estilizar nossa janela modal.
 
 ```css
 .modal {
-	position: fixed;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	font-family: Arial, Helvetica, sans-serif;
-	background: rgba(0,0,0,0.8);
-	z-index: 99999;
-	opacity:0;
-	-webkit-transition: opacity 400ms ease-in;
-	-moz-transition: opacity 400ms ease-in;
-	transition: opacity 400ms ease-in;
-	pointer-events: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
 }
 ```
 
@@ -73,8 +73,8 @@ Primeiramente precisamos formatar nossa classe modal para que no momento em que 
 
 ```css
 .modal:target {
-	opacity: 1;
-	pointer-events: auto;
+  opacity: 1;
+  pointer-events: auto;
 }
 ```
 
@@ -86,11 +86,11 @@ Podemos também para finalizar, estilizar nossa modal para que ela fique mais ap
 
 ```css
 .modal > div {
-	width: 400px;
-	position: relative;
-	margin: 10% auto;
-	padding: 15px 20px;
-	background: #fff;
+  width: 400px;
+  position: relative;
+  margin: 10% auto;
+  padding: 15px 20px;
+  background: #fff;
 }
 ```
 
@@ -100,17 +100,17 @@ Podemos também para finalizar, estilizar nossa modal para que ela fique mais ap
 
 ```css
 .fechar {
-	position: absolute;
-	width: 30px;
-	right: -15px;
-	top: -20px;
-	text-align: center;
-	line-height: 30px;
-	margin-top: 5px;
-	background: #ff4545;
-	border-radius: 50%;
-	font-size: 16px;
-	color: #8d0000;
+  position: absolute;
+  width: 30px;
+  right: -15px;
+  top: -20px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 5px;
+  background: #ff4545;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #8d0000;
 }
 ```
 

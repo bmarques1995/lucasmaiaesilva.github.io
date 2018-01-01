@@ -143,22 +143,22 @@ A partir de agora fica muito interessante, assim como fizemos o conteúdo "cresc
 
 ```css
 section.conteudo {
-	background: gray;
-	flex-grow: 1;
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
+  background: gray;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
-	
+
 .display {
-	background: white;
-	flex-grow: 1;
+  background: white;
+  flex-grow: 1;
 }
 	
 .insert {
-	background: black;
-	color: white;
-	height: 40px;
+  background: black;
+  color: white;
+  height: 40px;
 }
 
 ```
@@ -175,9 +175,9 @@ Suponhamos que tenhamos que alinhar todo o conteúdo dentro da sidebar ao centro
 
 ```css
 .barra-lateral {
-	display: flex;
-	justify-content: center; /* alinha os itens na horizontal */
-	align-items: center; /* alinha os itens na vertical */
+  display: flex;
+  justify-content: center; /* alinha os itens na horizontal */
+  align-items: center; /* alinha os itens na vertical */
 }
 ```
 

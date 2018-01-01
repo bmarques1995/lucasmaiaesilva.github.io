@@ -33,14 +33,14 @@
 
   .card-name {
     text-align: center;
-    border-bottom: 1px solid #d7d7d7;
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
     color: #333;
   }
 
   .card img {
     width: 100%;
+    border-top: 1px solid #d7d7d7;
+    margin-top: 1rem;
+    padding-top: 1rem;    
   }
 
   .card-info {
@@ -50,6 +50,23 @@
     color: #aaa;
     padding: .7rem 0;
   }
+
+  @media screen and (min-width: 734px) {
+    .card {
+      display: flex;
+      flex-direction: column;
+    }
+    .card header {
+      flex: 1;
+      display: flex;
+      align-items: center;
+    }
+    .card-name {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
   @media screen and (min-width: 1024px) {
     .card {
       margin: 1rem 1%;

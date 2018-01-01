@@ -46,18 +46,18 @@ Nosso HTML ficaria mais ou menos assim.
 
 ```html
 <body>
-	<header>
-		Cabeçalho
- 	</header>
-	<article class="content">
-		Article
-	</article>
-	<aside>
-		Sidebar
-	</aside>
-	<footer>
-		Rodapé
-	</footer>
+  <header>
+    Cabeçalho
+  </header>
+  <article class="content">
+    Article
+  </article>
+  <aside>
+    Sidebar
+  </aside>
+  <footer>
+    Rodapé
+  </footer>
 </body>
 ```
 
@@ -65,13 +65,13 @@ Nesse exemplo usarei o Stylus juntamente com o Jeet, nosso arquivo ficaria assim
 
 ```styl
 header
-   stack()
+  stack()
 .content
-   col(10/12)
+  col(10/12)
 aside
-   col(2/12)
+  col(2/12)
 footer
-   stack()
+  stack()
 ```
 
 Uma ressalva para as linhas 4 e 6 que substituem as classes `col-xs-10` e `col-xs-2` do bootstrap, respectivamente. Viu a diferença?
@@ -96,16 +96,16 @@ E para inserir um pouco de responsividade ná página? Existem várias maneiras 
 breakpoint = 980px
 
 header
-   display block
-   width 100%
+  display block
+  width 100%
 .content
-   col(10/12)
-   +below(breakpoint)
-      stack()
+  col(10/12)
+  +below(breakpoint)
+    stack()
 aside
    col(2/12)
    +below(breakpoint)
-   stack()
+     stack()
 footer
    stack()
 ```
@@ -144,7 +144,7 @@ A formatação da página inicial é feita com três posts por linha, e naturalm
 
 ```styl
 .post
-   col(1/3, cycle:3)
+  col(1/3, cycle:3)
 ```
 
 #### Uncycle
@@ -153,9 +153,9 @@ Uncycle desfaz a formatação do cycle, é bem útil quando queremos adicionar a
 
 ```styl
 .post
-   col(1/3, cycle:3)
-   +tablet()
-      col(1/2, uncycle:3, cycle:2)
+  col(1/3, cycle:3)
+  +tablet()
+    col(1/2, uncycle:3, cycle:2)
 ```
 
 Bem auto-explicativo não? Quando a página for acessada pelo tablet (breakpoint definido pelo plugin rupture), ele irá trocar os elementos do grid para dois itens do bloco ao invés de três.

@@ -24,19 +24,19 @@ O comando insert como o próprio nome já diz insere um *document* na collection
 
 ```sh
 db.alunos.insert({
-	nome: "Lucas Maia e Silva",
-	dataNascimento: "01/01/1990",
-	notas: {
-		"matematica": 100,
-		"fisica": 100,
-		"portugues": 0,
-		"geografia": 0,
-	},
-	peso: 75,
-	altura: 1.8,
-	sexo: "M",
-	pais: "Brasil",
-	estado: "MG"
+  nome: "Lucas Maia e Silva",
+  dataNascimento: "01/01/1990",
+  notas: {
+    "matematica": 100,
+    "fisica": 100,
+    "portugues": 0,
+    "geografia": 0,
+  },
+  peso: 75,
+  altura: 1.8,
+  sexo: "M",
+  pais: "Brasil",
+  estado: "MG"
 })
 ```
 
@@ -58,21 +58,20 @@ Para indentá-lo facilitando uma melhor leitura podemos usar o método pretty.
 ```sh
 $ db.alunos.find().pretty()
 {
-	"_id" : ObjectId("564fb56c6d600fca5032d20f"),
-	"nome" : "Lucas Maia e Silva",
-	"dataNascimento" : "01/01/1990",
-	"notas" : {
-		"matematica" : 100,
-		"fisica" : 100,
-		"portugues" : 0,
-		"geografia" : 0
-	},
-	"peso" : 75,
-	"altura" : 1.8,
-	"sexo" : "M",
-	pais: "Brasil",
-	estado: "MG"
-
+  "_id" : ObjectId("564fb56c6d600fca5032d20f"),
+  "nome" : "Lucas Maia e Silva",
+  "dataNascimento" : "01/01/1990",
+  "notas" : {
+    "matematica" : 100,
+    "fisica" : 100,
+    "portugues" : 0,
+    "geografia" : 0
+  },
+  "peso" : 75,
+  "altura" : 1.8,
+  "sexo" : "M",
+  pais: "Brasil",
+  estado: "MG"
 }
 ```
 
