@@ -64,24 +64,6 @@
       "date": "03/11/2015"
     },
     {
-      "title": "MongoDB, Introdução ao JSON",
-      "slug": "mongodb-introdução-ao-json",
-      "image": {
-        "url": "mongodb.png",
-        "alt": "Post sobre MongoDB. introdução ao JSON"
-      },
-      "date": "09/11/2015"
-    },
-    {
-      "title": "Grids Semânticos com Jeet",
-      "slug": "grids-semânticos-com-jeet",
-      "image": {
-        "url": "jeet.jpg",
-        "alt": "Post sobre Grids Semânticos com Jeet"
-      },
-      "date": "03/11/2015"
-    },
-    {
       "title": "Como sincronizar um Fork Feito pelo Github",
       "slug": "como-sincronizar-o-fork-feito-pelo-github",
       "image": {

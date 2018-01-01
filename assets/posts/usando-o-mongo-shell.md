@@ -25,7 +25,7 @@ mongo
 
 É importante que você siga essa sequência, pois o Mongo Shell não funciona sem o mongod aberto, pois como dito anteriormente o `mongod` é o serviço que vai nos permitir acessar e usar o banco, então ficamos basicamente assim:
 
-[![mongo e mongodb](/assets/img/posts/serie-mongo-db/mongo-mongod.png)](/assets/img/posts/serie-mongo-db/mongo-mongod.png)
+[![mongo e mongodb](/posts/serie-mongo-db/mongo-mongod.png)](/posts/serie-mongo-db/mongo-mongod.png)
 
 Na esquerda temos o log do `mongod` onde temos informações do que está acontecendo com o servidor como por exemplo, quantas conexões foram abertas, inserções e consultas etc. Para saber mais sobre o mongod [clique aqui](https://docs.mongodb.org/manual/reference/program/mongod/).
 

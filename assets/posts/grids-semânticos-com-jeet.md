@@ -23,11 +23,11 @@ Sabe quando você usa o Bootstrap por exemplo e sai colocando aquela tsunami de 
 
 O código acima iria gerar um resultado mais ou menos assim:
 
-![Bootstrap Renderizado](/assets/img/posts/jeet/bootstap-render.png)
+![Bootstrap Renderizado](/posts/jeet/bootstap-render.png)
 
 Bom esse pelo menos é o jeito tradicional de se usar o bootstrap.
 
-![Mas aí eu te pergunto](/assets/img/posts/learn-english/ai-eu-te-pergunto.jpg)
+![Mas aí eu te pergunto](/posts/learn-english/ai-eu-te-pergunto.jpg)
 
 Será que chamar TODOS esses *presets* dentro do arquivo css é a **melhor** maneira de se fazer?
 
@@ -37,7 +37,7 @@ A proposta desses sistemas de grids é usar **somente** o que for necessário de
 
 Veja um exemplo:
 
-![estrutura básica de uma página html](/assets/img/posts/jeet/html-basic-structure.png)
+![estrutura básica de uma página html](/posts/jeet/html-basic-structure.png)
 
 Suponhamos que precisaríamos de criar uma página semelhante a estrutura mostrada acima, um header, uma coluna maior que será o article e na mesma linha uma sidebar, e em baixo um footer também em bloco.
 
@@ -138,7 +138,7 @@ col(1/4, offset: 1/4)
 
 Sabe quando temos vários elementos em linha e definimos um espaçamento padrão entre eles? O que acontece é que na maioria das vezes existe um certo gargalo na lógica desse espaçamento que geralmente é resolvido pela manipulação dos elementos filhos por css, tome o próprio blog como exemplo:
 
-[![Sistema de grid blog](/assets/img/posts/jeet/grid-blog.png)](/assets/img/posts/jeet/grid-blog.png)
+[![Sistema de grid blog](/posts/jeet/grid-blog.png)](/posts/jeet/grid-blog.png)
 
 A formatação da página inicial é feita com três posts por linha, e naturalmente quando se usa o `col` ele faz o espaçamento devido para deslocar os elementos em linha, porém nesse caso haverá possivelmente mais de uma linha, o que significa que devemos remover o espaço do último item do bloco para que não haja quebra desse espaçamento (para mais detalhes veja esse [vídeo](https://www.youtube.com/watch?v=roqlCwEn4iI)), a referência usada para remover esse espaço é `cycle`. Veja um exemplo de sua utilização:
 

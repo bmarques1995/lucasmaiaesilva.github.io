@@ -1,11 +1,11 @@
 
 Olá galera, atendendo a milhares de pedidos, surge então nosso segundo post da série sobre mongoDB, neste post vou explicar um pouco sobre mais sobre a sua essência, arquitetura e funcionamento. Vamos nessa.
 
-![Vamo nessa](/assets/img/posts/serie-mongo-db/vamonessa.gif)
+![Vamo nessa](/posts/serie-mongo-db/vamonessa.gif)
 
 ## Funcionamento
 
-![funcionamento do mongoDB](/assets/img/posts/serie-mongo-db/mongoDBschema.jpg)
+![funcionamento do mongoDB](/posts/serie-mongo-db/mongoDBschema.jpg)
 
 Vamos dar uma olhada em seu funcionamento básico, primeiramente temos um *app*, esse app pode ser escrito em qualquer linguagem compatível com o mongoDB (nodejs, Python, Java, entre outras), porém além da linguagem esse app deve possuir o *driver* que funciona como uma espécie de plugin da aplicação que é o middleware entre o banco e a aplicação, ou seja, o que vai conectar a aplicação ao mongoDB.
 
@@ -25,7 +25,7 @@ Se você vem do mundo do banco de dados relacional, vai se sentir mais confortá
 
 Temos o seguinte comparativo de estrutura:
 
-![Comparativo de estrutura](/assets/img/posts/serie-mongo-db/structure.png)
+![Comparativo de estrutura](/posts/serie-mongo-db/structure.png)
 
 ### Collections
 

@@ -96,7 +96,7 @@ _Você pode **combinar** eles também_
 ![GitHub Logo](/images/logo.png)
 {% endhighlight %}
 
-> ![GitHub Logo](/assets/img/posts/usando-markdown/Octocat.png)
+> ![GitHub Logo](/posts/usando-markdown/Octocat.png)
 
 _O que aparece entre colchetes é o que seria renderizado como o atributo **alt** do html_
 

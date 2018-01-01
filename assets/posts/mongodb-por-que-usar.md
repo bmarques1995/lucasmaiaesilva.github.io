@@ -1,7 +1,7 @@
 
 ## E vamos nós
 
-![Vamos nós](/assets/img/posts/serie-mongo-db/giphy.gif)
+![Vamos nós](/posts/serie-mongo-db/giphy.gif)
 
 Primeiramente gostaria de agradecer a todos pelo feedback sobre o blog, muito obrigado, podem ter certeza que isso me motiva muito a continuar escrevendo, e dizer que estou iniciando uma série sobre MongoDB, este será o primeiro de alguns posts e dentro dessa série pretendo abordar uma base simples, porém sólida e organizada sobre o assunto.
 

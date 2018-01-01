@@ -94,7 +94,7 @@ Podemos também para finalizar, estilizar nossa modal para que ela fique mais ap
 }
 {% endhighlight %}
 
-![Modal box estilizado](/assets/img/posts/criando-modal/modal-estilizado.png)
+![Modal box estilizado](/posts/criando-modal/modal-estilizado.png)
 
 #### estilizando botão de fechar
 
@@ -117,7 +117,7 @@ Podemos também para finalizar, estilizar nossa modal para que ela fique mais ap
 
 Veja como fica a arte final.
 
-![arte final modal box](/assets/img/posts/criando-modal/arte-final.png)
+![arte final modal box](/posts/criando-modal/arte-final.png)
 
 Referência para este post [aqui](http://www.webdesignerdepot.com/2012/10/creating-a-modal-window-with-html5-and-css3/).
 
@@ -129,19 +129,19 @@ Agora que já aprendemos um jeito prático de fazê-los vamos a uma breve introd
 
 Modal boxes são muito úteis para formulários de registro, pois o usuário não tem aquela terrível sensação de que está sendo "empurrado" para outra página sem necessidade, causando uma boa impressão aos visitantes.
 
-![formulario de login em modal](/assets/img/posts/criando-modal/modal_login.png)
+![formulario de login em modal](/posts/criando-modal/modal_login.png)
 
 ### Display imagens / vídeos
 
 Um outro excelente modo de se usar modal é para mostrar imagens e vídeos (também conhecido como lightbox), permite que o usuário visualize de maneira mais focalizada o conteúdo de seu site sem abandonar a página.
 
-![modal lightbox](/assets/img/posts/criando-modal/modal_lightbox.png)
+![modal lightbox](/posts/criando-modal/modal_lightbox.png)
 
 ### Feedback ao usuário em geral
 
 Creio que essa seja a principal utilidade do modal, os chamados alerts dessa maneira são totalmente customizáveis e usados nos principais projetos atualmente.
 
-![modal alert](/assets/img/posts/criando-modal/modal_alerts.png)
+![modal alert](/posts/criando-modal/modal_alerts.png)
 
 ## Conclusão
 

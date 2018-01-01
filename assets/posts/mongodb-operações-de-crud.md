@@ -5,7 +5,7 @@ No post anterior vimos o que é, e como funciona o Mongo Shell, isso é importan
 
 Pra quem vêm do mundo do SQL o seguinte comparativo de funções, pode ajudar a ter uma melhor ideia dessas operações:
 
-![Comparativo de funcionalidades](/assets/img/posts/serie-mongo-db/functions.png)
+![Comparativo de funcionalidades](/posts/serie-mongo-db/functions.png)
 
 Este post será sobre as operações de CRUD em MongoDB, se você deseja ver a série desde o início clique [aqui](http://lucasmaiaesilva.com.br/series). 
 

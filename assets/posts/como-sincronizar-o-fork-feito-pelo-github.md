@@ -3,7 +3,7 @@ Quando falamos de programação Open Source não podemos deixar de falar no Gith
 
 Quando queremos contribuir com algum projeto que não é nosso, geralmente temos que "garfar" aquele projeto (fork), e com isso todas as alterações que fazemos naquele projeto podem ser "commitadas" sem nenhum problema pois após o fork, o Github irá tratar o projeto como seu e seu repositório em um primeiro momento não se comunica com o repositório original. Para forkar o projeto basta clicar em fork.
 
-![Fork no Github](/assets/img/posts/sinc-fork-github/fork.png)
+![Fork no Github](/posts/sinc-fork-github/fork.png)
 
 Mas aí nos deparamos com 2 problemas correto? Como eu disse anteriormente, em um primeiro momento, os dois projetos (original e o que foi feito o fork) não se comunicam então temos dois tipos de situação para sincronizá-los.
 

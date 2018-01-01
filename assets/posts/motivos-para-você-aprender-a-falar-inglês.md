@@ -16,7 +16,7 @@ Fonte: [english.com](http://english.com/english_learning_infographic)
 
 > Atualmente 55% da Internet está em Inglês.
 
-![Aí eu te pergunto](/assets/img/posts/learn-english/ai-eu-te-pergunto.jpg)
+![Aí eu te pergunto](/posts/learn-english/ai-eu-te-pergunto.jpg)
 
 Nós programadores, quando encontramos um problema com alguma configuração de ambiente, ou alguma linguagem de programação e precisamos encontrar uma solução para aquele problema e recorremos a mecanismos de busca para isso, em qual idioma tenho mais chances/ mais soluções variadas/ mais conteúdo disponível para me ajudar?
 
@@ -40,19 +40,19 @@ Mas existem relatos de pessoas que aprenderam Inglês de outras maneiras vamos a
 
 * 79% das pessoas dizem que aprenderam Inglês com a ajuda de filmes
 
-![Referências de filmes em inglês](/assets/img/posts/learn-english/filmes.jpg)
+![Referências de filmes em inglês](/posts/learn-english/filmes.jpg)
 
 * 82% das pessoas dizem que aprenderam Inglês com a ajuda de programas de TV
 
-![Referências de programas de tv em inglês](/assets/img/posts/learn-english/tvshows.jpg)
+![Referências de programas de tv em inglês](/posts/learn-english/tvshows.jpg)
 
 * 80% das pessoas dizem que aprenderam Inglês com a ajuda de músicas
 
-![Referências de músicas em inglês](/assets/img/posts/learn-english/music.jpg)
+![Referências de músicas em inglês](/posts/learn-english/music.jpg)
 
 * 56% das pessoas dizem que aprenderam Inglês com a ajuda de Jogos e 55% com a ajuda de Revistas em quadrinhos(Comic Books)
 
-![Referências de Jogos e ComicBooks em inglês](/assets/img/posts/learn-english/gamesandcomics.jpg)
+![Referências de Jogos e ComicBooks em inglês](/posts/learn-english/gamesandcomics.jpg)
 
 ## Conclusão
 

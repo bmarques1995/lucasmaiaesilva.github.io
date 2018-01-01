@@ -11,7 +11,7 @@ Em resumo planejamento é **tudo**.
 
 Segue uma foto que tirei do Sketch original do Blog.
 
-[![Sketch do blog](/assets/img/posts/tecnologias-que-usei-no-blog/sketch.jpg)](http://lucasmaiaesilva.com.br/assets/img/posts/tecnologias-que-usei-no-blog/sketch.jpg)
+[![Sketch do blog](/posts/tecnologias-que-usei-no-blog/sketch.jpg)](http://lucasmaiaesilva.com.br/posts/tecnologias-que-usei-no-blog/sketch.jpg)
 
 ## Photoshop
 
@@ -22,7 +22,7 @@ Basicamente usei o Photoshop para criar o design de como ficaria a interface do 
 
 ## Jekyll
 
-![WebSite Jekyll](/assets/img/posts/tecnologias-que-usei-no-blog/jekyll-site.jpg)
+![WebSite Jekyll](/posts/tecnologias-que-usei-no-blog/jekyll-site.jpg)
 
 Jekyll é um gerador estático escrito em Ruby para sites/blogs simples.
 
@@ -40,7 +40,7 @@ Se você não possui dificuldade com o inglês, sugiro que assista uma playlist 
 
 ## Gulp
 
-![imagem gulp](/assets/img/posts/tecnologias-que-usei-no-blog/gulp-fit.png)
+![imagem gulp](/posts/tecnologias-que-usei-no-blog/gulp-fit.png)
 
 O Gulp, assim como Grunt, é um automatizador de tarefas, ou seja, ele é uma ferramenta que te permite abstrair de algumas coisas mais chatinhas durante o processo de criação. Segue abaixo uma analogia de como funcionaria.
 
@@ -58,7 +58,7 @@ E entre muitas outras coisas. Se quiser saber mais sobre o gulp dê uma olhada n
 
 ## Stylus
 
-![Logo Stylus](/assets/img/posts/tecnologias-que-usei-no-blog/stylus-thumb.png)
+![Logo Stylus](/posts/tecnologias-que-usei-no-blog/stylus-thumb.png)
 
 Minhas folhas de estilo são escritas em [Stylus](https://learnboost.github.io/stylus/) e pré-processadas para o CSS via Gulp. Não vou me atentar a explicar muita coisa sobre isso, uma vez que tenhos planos específicos de fazer um post separado sobre essa linguagem. Sua sintaxe é muito amigável dê uma olhada no exemplo abaixo:
 

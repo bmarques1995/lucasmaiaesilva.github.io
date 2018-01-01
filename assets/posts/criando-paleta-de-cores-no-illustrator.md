@@ -7,7 +7,7 @@ O problema é que, para termos um Design "clean", temos que ter um certo tipo de
 
 Veja um exemplo de um personagem colorido sem harmonia em suas cores:
 
-![Sem coloração](/assets/img/posts/paleta-cores-illustrator/soldier-bad-color.png)
+![Sem coloração](/posts/paleta-cores-illustrator/soldier-bad-color.png)
 
 ## Criando a paleta de Cores
 
@@ -15,25 +15,25 @@ Para criar a paleta de cores primeiramente precisaremos das cores primárias nas
 
 Crie quadrados e preencha-os com as cores desejadas deixe um espaçamento entre eles como mostra o desenho abaixo:
 
-![Cores Primárias](/assets/img/posts/paleta-cores-illustrator/cores-primarias.jpg)
+![Cores Primárias](/posts/paleta-cores-illustrator/cores-primarias.jpg)
 
 No exemplo foram criadas 3 cores, mas você pode usar quantas cores quiser, mas quanto maior o número de cores que você utilizar, menor é a chance de seu desenho ter uma boa harmonia entre as cores e menor é a chance de ele ficar bonito. Em outras palavras menos é mais.
 
 Em seguida, basta selecionar os três quadrados ao mesmo tempo e ir até o menu *object / Blend / Blend Options...*. Ao acessar esse menu irá aparecer uma janela de configuração, neste caso deixaremos o *Spacing* como *Specified Steps* pois queremos mostrar os quadros em um efeito de transição o valor desse atributo como 2 (número de quadros).
 
-![Painel config Blend Options](/assets/img/posts/paleta-cores-illustrator/window-blend-tool.jpg)
+![Painel config Blend Options](/posts/paleta-cores-illustrator/window-blend-tool.jpg)
 
 Depois disso basta clicar na ferramenta **Blend Tool** que fica na caixa de ferramentas ou pressionar **w** e então é só clicar uma vez em cada quadrado que você criou que a mágica acontece.
 
-![Paleta de cores](/assets/img/posts/paleta-cores-illustrator/paleta-cores.jpg)
+![Paleta de cores](/posts/paleta-cores-illustrator/paleta-cores.jpg)
 
 > Dica Deixe sempre a paleta de cores próxima ao seu desenho para uma melhor produtividade
 
-![Desenho](/assets/img/posts/paleta-cores-illustrator/draw-colored.jpg)
+![Desenho](/posts/paleta-cores-illustrator/draw-colored.jpg)
 
 E como ficaria aquele desenho que usamos de exemplo anteriormente com o tratamento devido? Ficaria assim:
 
-![Como coloração](/assets/img/posts/paleta-cores-illustrator/soldier-good-color.png)
+![Como coloração](/posts/paleta-cores-illustrator/soldier-good-color.png)
 
 A harmonia entre as cores torna o personagem mais "apresentável" pois não é agressivo aos olhos o uso de suas cores. Uma outra dica importante é que sempre que for dar uma noção de profundidade de alguma parte do personagem usa-se uma cor mais escura, diferente de background's por exemplo, onde quanto mais distante o elemento mais claro ele fica para nos dar a sensação de que está se perdendo no horizonte.
 
