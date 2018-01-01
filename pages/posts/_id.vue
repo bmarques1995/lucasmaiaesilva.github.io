@@ -53,6 +53,10 @@
   font-size: 1.15rem;
 }
 
+.post-content a {
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 734px) {
   .post-content pre {
     margin: 3rem 0;
