@@ -27,13 +27,30 @@
   font-size: 1.6rem;
 }
 
+.post-content pre {
+  display: block;
+  overflow-x: auto;
+  color: #abb2bf;
+  background: #282c34;
+  width: 100%;
+  padding: 2rem 4rem;
+}
+
+.post-content pre {
+  margin: 3rem 0;
+}  
+
 .post p {
   margin-bottom: 3rem;
   font-size: 1.15rem;
 }
 
 @media screen and (min-width: 734px) {
-  .post-content {
+  .post-content pre {
+    margin: 3rem 0;
+  }
+  .post-content,
+  .post-content pre {
     padding: 2rem;
   }
   .post-content h1 {
@@ -42,8 +59,12 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .post-content {
+  .post-content,
+  .post-content pre, {
     padding: 2rem 4rem;
+  }
+  .post-content pre {
+    margin: 3rem 0;
   }
 }
 </style>

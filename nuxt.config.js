@@ -53,6 +53,12 @@ module.exports = {
       }
     }
   },
+  css: [
+    '~/assets/css/highlightjs.min.css'
+  ],
+  plugins: [
+    '~/plugins/vue-highlightjs'
+  ],
   modules: [
     // '@nuxtjs/font-awesome',
     // ['@nuxtjs/google-analytics', { ua: 'UA-104010-6' }],
