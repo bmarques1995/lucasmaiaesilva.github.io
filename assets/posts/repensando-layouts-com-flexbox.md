@@ -35,7 +35,7 @@ Esse projeto de Layout foi feito para a criação de um Layout de um projeto de 
 
 Primeiramente escrevemos o bom e velho HTML de maneira simples.
 
-{% highlight html %}
+```html
 index.html
 <html>
 	<body>
@@ -47,7 +47,7 @@ index.html
 		</section>
 	</body>
 </html>
-{% endhighlight %}
+```
 
 ![Display Block](/posts/flexbox/display-block.png)
 
@@ -55,11 +55,11 @@ Bem como sabemos tanto o `aside` quanto o `section` assim como as `divs` são el
 
 Normalmente usaríamos uma série de `floats` e `margins` para conseguirmos o resultado desejado. Porém o flexbox veio para nos ajudar a simplificar as coisas. Veja como fica o nosso CSS.
 
-{% highlight css %}
+```css
 body {
 	display: flex;
 }
-{% endhighlight %}
+```
 
 Fazendo isso os elementos se tornam "flexíveis", e, por padrão sua direção é em linha por causa do atributo `flex-direction` do flexbox.
 
@@ -69,7 +69,7 @@ Fazendo isso os elementos se tornam "flexíveis", e, por padrão sua direção �
 
 Em seguida vamos setar algumas características dos elementos `aside` e `section`
 
-{% highlight css %}
+```css
 body {
 	display: flex;
 }
@@ -83,7 +83,7 @@ section.conteudo {
 	flex-grow: 1;
 	background: gray;
 }
-{% endhighlight %}
+```
 
 ![Display Column](/posts/flexbox/display-column.png)
 
@@ -91,7 +91,7 @@ Atente-se ao atributo `flex-grow` na classe conteudo, você viu que anteriorment
 
 E por último para finalizar o protótipo base, adicionamos ao `body` que é nosso "elemento pai" uma linha de código que dirá que o tamanho vertical do nosso projeto será o tamanho da janela do navegador.
 
-{% highlight css %}
+```css
 body {
 	display: flex;
 	height: 100vh;
@@ -106,7 +106,7 @@ section.conteudo {
 	flex-grow: 1;
 	background: gray;
 }
-{% endhighlight %}
+```
 
 ![Usando Flex grow](/posts/flexbox/flex-grow.png)
 
@@ -115,7 +115,7 @@ O valor `100vh` significa que ela irá ocupar os 100% da `viewport`, ou seja, 10
 Agora vamos alterar novamente a estrutura do nosso html, dentro dele vamos adicionar 2 elementos filhos ao atributo com a classe `conteudo`.
 
 
-{% highlight html %}
+```html
 <body>
 	<aside class="barra-lateral">
 		sidebar
@@ -129,7 +129,7 @@ Agora vamos alterar novamente a estrutura do nosso html, dentro dele vamos adici
 		</div>
 	</section>
 </body>
-{% endhighlight %}
+```
 
 Agora que começa a lógica do flexbox. Assim como o `body` que é nosso elemento pai, podemos estilizar o `section` conteudo como `display: flex` também e isso nos dá possibilidade de usarmos todos os atributos do flex-box para estilizá-lo.
 
@@ -141,27 +141,27 @@ Como já falado por padrão do flexbox os elementos `display` e `insert` serão 
 
 A partir de agora fica muito interessante, assim como fizemos o conteúdo "crescer" com o flex-grow no sentido horizontal, também podemos fazê-lo no sentido vertical, assim dando uma cara nova a nossa interface do chat.
 
-{% highlight css %}
+```css
 section.conteudo {
-	background gray
-	flex-grow 1
-	display flex
-	flex-direction column
-	min-height 100vh
+	background: gray;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 	
 .display {
-	background white
-	flex-grow 1
+	background: white;
+	flex-grow: 1;
 }
 	
 .insert {
-	background black
-	color white
-	height 40px
+	background: black;
+	color: white;
+	height: 40px;
 }
 
-{% endhighlight %}
+```
 
 Fazendo isso temos esse resultado:
 
@@ -173,13 +173,13 @@ Vamos então agora alinhar os nossos elementos.
 
 Suponhamos que tenhamos que alinhar todo o conteúdo dentro da sidebar ao centro da div, tanto na vertical como na horizontal, para fazer isso com flexbox é muito simples, basta acrescentar as seguintes comandos ao **elemento pai** dessa div.
 
-{% highlight css %}
+```css
 .barra-lateral {
 	display: flex;
 	justify-content: center; /* alinha os itens na horizontal */
 	align-items: center; /* alinha os itens na vertical */
 }
-{% endhighlight %}
+```
 
 Pronto, agora é só estilizar com nosso bom e velho css comum. Como já disse esse projeto também possui reactJS e firebase como suas tecnologias base, porém a arquitetura de seu layout foi feito exatamente como mencionado neste post. Qualquer dúvida / elogio, deixe nos comentários. :)
 

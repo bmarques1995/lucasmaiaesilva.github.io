@@ -9,7 +9,7 @@ Como já vimos anteriormente, o formato de dados utilizado pelo Mongo é o [BSON
 
 JSON é um acrônimo para Javascript Object Notation, quando nos referimos a um objeto, nos referimos a um tipo de estrutura de dados da linguagem, basicamente um objeto pode conter atributos e métodos. A sintaxe de um objeto em javascript segue a notação de `{chave: valor}`.
 
-{% highlight js linenos %}
+```js
 var pessoa = {
 	nome: 'Lucas',
 	sobrenome: 'Maia',
@@ -22,7 +22,7 @@ var pessoa = {
 	comidasPreferidas: ['Hamburguer', 'Churrasco', 'Feijoada'],
 	nerd: true
 }
-{% endhighlight %}
+```
 
 > Exemplo adaptado do curso [Javascript ninja](http://blog.da2k.com.br/curso-javascript-ninja/) do Fernando Daciuk. Recomendo!
 
@@ -34,44 +34,44 @@ Quando precisamos 'acessar' alguma informação dentro de um objeto usamos a sin
 
 Acessando atributos simples:
 
-{% highlight js %}
+```js
 pessoa.nome; // Lucas
 pessoa.idade; // 25
 pessoa.peso; // 78
 pessoa.altura; // 1.78
-{% endhighlight %}
+```
 
 Acessando functions:
 
-{% highlight js %}
+```js
 pessoa.nomeCompleto(); // Lucas Maia
-{% endhighlight %}
+```
 
 Acessando arrays:
 
-{% highlight js %}
+```js
 pessoa.comidasPreferidas[0]; // Hambúrguer
 pessoa.comidasPreferidas[1]; // Churrasco
 pessoa.comidasPreferidas[2]; // Feijoada
-{% endhighlight %}
+```
 
 Como vamos trabalhar esses dados voltados para o armazenamento em banco, vamos nos deparar com diversas situações, em algumas das vezes as *collections* de dados ficarão bem simples em sua estrutura e em outras as estruturas ficarão um tanto quanto complexas. As estruturas simples em formato JSON são chamadas de *Basic Nesting*, e as complexas de *Deep Nesting*.
 
 ### Basic Nesting
 
-{% highlight js linenos %}
+```js
 {
 	produto: "notebook",
 	atributos: { tipo: "Mac", caro: true },
 	estoque: 5
 }
-{% endhighlight %}
+```
 
 Como você pode ver é uma estrutura bem simples de dados. Assim como sua leitura também é simples.
 
 ### Deep Nesting
 
-{% highlight js linenos %}
+```js
 [
 	{
 		filme: 'Madrugada dos Mortos',
@@ -96,7 +96,7 @@ Como você pode ver é uma estrutura bem simples de dados. Assim como sua leitur
 		]
 	}
 ]
-{% endhighlight %}
+```
 
 As *deep nestings* são estuturas um pouco mais complexas, mas não são maneiras erradas de se guardar informações, como já havia dito antes, o MongoDB é um banco de dados não relacional, então é comum encontrarmos estruturas mais complexas de dados, pois como não existe relacionamentos entre documentos é perfeitamente normal que haja muitos dados em uma mesma collection ou em um mesmo *document*.
 

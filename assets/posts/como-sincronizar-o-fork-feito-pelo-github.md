@@ -15,27 +15,27 @@ E na segunda situação acontece justamente o contrário. Suponhamos que você f
 
 Primeiramente executamos o comando abaixo para ver a lista de repositórios configurados em seu fork.
 
-{% highlight bash %}
+```sh
 git remote -v
 # origin  https://github.com/SEU_USUARIO/SEU_FORK.git (fetch)
 # origin  https://github.com/SEU_USUARIO/SEU_FORK.git (push)
-{% endhighlight %}
+```
 
 Vemos que como ele só possui uma referência para fetch e outra para push e ambas em seu próprio repositório temos que executar o seguinte comando para adicionar o repositório com o projeto original
 
-{% highlight bash %}
+```sh
 git remote add upstream https://github.com/USUARIO_ORIGINAL/REPOSITORIO_ORIGINAL.git
-{% endhighlight %}
+```
 
 Ao executar novamente o comando para listar os repositório vemos que o repositório original foi incluso no processo.
 
-{% highlight bash %}
+```sh
 git remote -v
 # origin  https://github.com/SEU_USUARIO/SEU_FORK.git (fetch)
 # origin  https://github.com/SEU_USUARIO/SEU_FORK.git (push)
 # upstream https://github.com/USUARIO_ORIGINAL/REPOSITORIO_ORIGINAL.git (fetch)
 # upstraem https://github.com/USUARIO_ORIGINAL/REPOSITORIO_ORIGINAL.git (push)
-{% endhighlight %}
+```
 
 Bom agora que já está tudo configurado basta sincronizar.
 
@@ -43,7 +43,7 @@ Bom agora que já está tudo configurado basta sincronizar.
 
 Primeiramente precisamos executar um comando que procure por atualizações no projeto original e as armazene em um branch local `upstream/master`.
 
-{% highlight bash %}
+```sh
 git fetch upstream
 # remote: Counting objects: 75, done.
 # remote: Compressing objects: 100% (53/53), done.
@@ -51,24 +51,24 @@ git fetch upstream
 # Unpacking objects: 100% (62/62), done.
 # From https://github.com/USUARIO_ORIGINAL/REPOSITORIO_ORIGINAL.git
 #  * [new branch]      master     -> upstream/master
-{% endhighlight %}
+```
 
 Em seguida nos asseguramos que estamos no [branch master](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) do projeto.
 
-{% highlight bash %}
+```sh
 git checkout master
 # Switched to branch 'master'
-{% endhighlight %}
+```
 
 E para finalizar só precisamos fazer o merge de `upstream/master` para o seu branch local `master`. 
 
-{% highlight bash %}
+```sh
 git merge upstream/master
 # Updating 34e91da..16c56ad
 # Fast-forward
 #  README.md                 |    5 +++--
 #  1 file changed, 3 insertions(+), 2 deletions(-)
-{% endhighlight %}
+```
 
 ## Conclusão
 

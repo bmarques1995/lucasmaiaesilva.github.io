@@ -15,13 +15,13 @@ Vamos a criação:
 
 ## HTML
 
-{% highlight html %}
+```html
 <a href="#abrirModal">Open Modal</a>
 
 <div id="abrirModal" class="modal">
 	<!-- conteúdo do modal aqui -->
 </div>
-{% endhighlight %}
+```
 
 Primeiramente criamos um link, esse link é referenciado por `abrirModal` é importante que ele venha com o prefixo `#` pois simboliza que estamos referenciando por id. 
 
@@ -29,7 +29,7 @@ Em seguida é só criar um elemento que irá armazenar esses elementos. No caso 
 
 Juntamente com a referência do id criamos uma classe `modal` que será o que iremos usar pra estilizar nosso elemento.
 
-{% highlight html %}
+```html
 <a href="#abrirModal">Open Modal</a>
 
 <div id="abrirModal" class="modal">
@@ -38,7 +38,7 @@ Juntamente com a referência do id criamos uma classe `modal` que será o que ir
 	<p>Esta é uma simples janela de modal.</p>
 	<p>Você pode fazer qualquer coisa aqui, página de Login, pop-ups, ou formulários</p>
 </div>
-{% endhighlight %}
+```
 
 Dentro do modal criamos o botão de fechar, como esse botão sentencia um outro id, não precisamos fazer mais nada com relação a mecânica das informações, pois ao clicar em fechar, trocamos o id de `abrirModal` para `fechar` essa troca já faz a mágica acontecer.
 
@@ -46,7 +46,7 @@ Dentro do modal criamos o botão de fechar, como esse botão sentencia um outro 
 
 Agora que temos a nossa estrutura HTML, podemos estilizar nossa janela modal.
 
-{% highlight css linenos %}
+```css
 .modal {
 	position: fixed;
 	top: 0;
@@ -62,7 +62,7 @@ Agora que temos a nossa estrutura HTML, podemos estilizar nossa janela modal.
 	transition: opacity 400ms ease-in;
 	pointer-events: none;
 }
-{% endhighlight %}
+```
 
 As linhas `2 até 6`, são para posicionar o modal afixadamente no centro da tela. A comando da linha `8` serve para sentenciar o background, escurecendo o fundo para enfatizar a janela, que irá aparecer centralizada na tela. Na linha `9` a propriedade `z-index` assegura que a janela irá aparecer por cima das outras, como se fosse um sistema de camadas do Photoshop. A linha `10` seta a opacidade do modal, removendo sua visibilidade por *default* e as linhas `11 a 13` são os comandos de transição, para que essa mudança de transição tenha um *timing* apropriado e não ocorra do nada.
 
@@ -71,12 +71,12 @@ As linhas `2 até 6`, são para posicionar o modal afixadamente no centro da tel
 
 Primeiramente precisamos formatar nossa classe modal para que no momento em que ela estiver evidênciada ela apareça na tela. Lembra da opacidade 0 anteriormente? Ela serve pra isso. Vamos ao código.
 
-{% highlight css %}
+```css
 .modal:target {
 	opacity: 1;
 	pointer-events: auto;
 }
-{% endhighlight %}
+```
 
 A pseudo-classe `:target` representa um único elemento, se existir algum `id` fragmentado na URL, ela será formatado conforme os atributos passados no formato da classe acima. Para saber mais sobre o `:target` [clique aqui](https://developer.mozilla.org/pt-BR/docs/Web/CSS/%3Atarget).
 
@@ -84,7 +84,7 @@ A propriedade `pointer-events` permite autores controlarem sob qualquer circusta
 
 Podemos também para finalizar, estilizar nossa modal para que ela fique mais apresentável usando o nosso bom e simples `css`.
 
-{% highlight css %}
+```css
 .modal > div {
 	width: 400px;
 	position: relative;
@@ -92,13 +92,13 @@ Podemos também para finalizar, estilizar nossa modal para que ela fique mais ap
 	padding: 15px 20px;
 	background: #fff;
 }
-{% endhighlight %}
+```
 
 ![Modal box estilizado](/posts/criando-modal/modal-estilizado.png)
 
 #### estilizando botão de fechar
 
-{% highlight css %}
+```css
 .fechar {
 	position: absolute;
 	width: 30px;
@@ -112,7 +112,7 @@ Podemos também para finalizar, estilizar nossa modal para que ela fique mais ap
 	font-size: 16px;
 	color: #8d0000;
 }
-{% endhighlight %}
+```
 
 
 Veja como fica a arte final.

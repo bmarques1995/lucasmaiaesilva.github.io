@@ -17,15 +17,15 @@ O mongo shell é responsável por fazer essa *tradução* entre os drivers de li
 
 Vamos a sintaxe JSON (JavaScript Object Notation):
 
-{% highlight js linenos %}
+```js
 {"chave": "valor"}
-{% endhighlight %}
+```
 
 Por exemplo:
 
-{% highlight js linenos %}
+```js
 {"nome": "Lucas"}
-{% endhighlight %}
+```
 
 Mas é isso? Na verdade sim e não. Com base sempre nesta mesma estrutura com chave e valor podemos criar desde arquiteturas simples de dados (basic nesting), até as arquiteturas mais complexas de dados (deep nesting).
 
@@ -39,10 +39,10 @@ Nos Bancos de dados relacionais, são necessários que todos os dados sigam basi
 
 Posso ter documentos com "formatos" variados de armazenamento.
 
-{% highlight js linenos %}
+```js
 { a: 3, b: 7},
 { a: 7, b: 9, c: 10 }
-{% endhighlight %}
+```
 
 ## Por que usar MongoDB?
 

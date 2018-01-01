@@ -62,7 +62,7 @@ E entre muitas outras coisas. Se quiser saber mais sobre o gulp dê uma olhada n
 
 Minhas folhas de estilo são escritas em [Stylus](https://learnboost.github.io/stylus/) e pré-processadas para o CSS via Gulp. Não vou me atentar a explicar muita coisa sobre isso, uma vez que tenhos planos específicos de fazer um post separado sobre essa linguagem. Sua sintaxe é muito amigável dê uma olhada no exemplo abaixo:
 
-{% highlight sass %}
+```styl
 body
 	background red
 
@@ -71,7 +71,7 @@ body
 	margin 0 auto
 	#logo
 		width 200px
-{% endhighlight %}
+```
 
 ## Conclusão
 

@@ -47,7 +47,7 @@ Enquanto isso o MongoDB poderia muito bem concentrar tudo isso em um único arqu
 
 Cada elemento dentro da collection é considerado um *document*, e a soma de TODOS os documents dentro da mesma estrutura de dados formam a collection, segue um exemplo de um document, usando o mesmo exemplo de criação de um blog.
 
-{% highlight js linenos %}
+```js
 {
 	'title': 'MongoDB arquitetura e funcionamento',
 	'body': 'conteúdo do post',
@@ -60,7 +60,7 @@ Cada elemento dentro da collection é considerado um *document*, e a soma de TOD
 	'data': '26/10/2015',
 	'imgPost': '/assets/img/mongoDB.png'
 }
-{% endhighlight %}
+```
 
 ### Campos ou fields
 

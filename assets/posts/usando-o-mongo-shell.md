@@ -11,17 +11,17 @@ Iremos usar o Mongo Shell para testar query por query nos próximos posts da sé
 
 Na primeira janela/aba do terminal:
 
-{% highlight bash %}
+```sh
 mongod
-{% endhighlight %}
+```
 
 Esse comando ativa o mongod.
 
 Em seguida vamos ativar o Mongo Shell:
 
-{% highlight bash %}
+```sh
 mongo
-{% endhighlight %}
+```
 
 É importante que você siga essa sequência, pois o Mongo Shell não funciona sem o mongod aberto, pois como dito anteriormente o `mongod` é o serviço que vai nos permitir acessar e usar o banco, então ficamos basicamente assim:
 
@@ -37,30 +37,30 @@ Bom agora que já vimos como configurar. Vamos aos comandos.
 
 O primeiro comando que devemos entender é o `showdbs`, como o nome diz ele retorna todos os Bancos de Dados existentes em sua máquina.
 
-{% highlight bash %}
+```sh
 $ show dbs
 # blog     0.078GB
 # test     0.078GB
 # escola   0.078GB
-{% endhighlight %}
+```
 
 Em seguida usamos o comando `use` seguido do nome do banco de dados que queremos acessar.
 
-{% highlight bash %}
+```sh
 $ use escola
 # switched to db escola
-{% endhighlight %}
+```
 
 > obs: Se não existir um banco de dados com o nome passado por parâmetro depois do use, o MongoDB cria um novo Banco com o nome referenciado.
 
 Depois de acessado o banco podemos ver quantas *collections* existem naquele banco.
 
-{% highlight bash %}
+```sh
 $ show collections
 # professores
 # alunos
 # eventos
-{% endhighlight %}
+```
 
 É importante evitarmos e se possível, aniquilarmos o número de dependências entre as collections. Pois estamos trabalhando em um modo não relacional lembram?
 
@@ -72,9 +72,9 @@ A sintaxe para importar os dados no MongoDB é:
 
 `mongoimport -d [nomeDB] -c [nomeCollection] [arquivo.js]`
 
-{% highlight bash %}
+```sh
 mongoimport -d curso -c turmas turmas.js
-{% endhighlight %}
+```
 
 Ao executarmos o comando acima, o Mongo Shell procura o arquivo `turmas.js` e o importa, criando também o banco `curso` e a *collection* `turmas` caso não haja nenhum.
 
@@ -86,17 +86,17 @@ Para exportar os dados a sintaxe é basicamente a mesma, porém com devemos info
 
 `mongoexport -d [nomeDB] -c [nomeCollection] --out [dirExport/arquivo.js]`
 
-{% highlight bash %}
+```sh
 mongoexport -d curso -c turmas --out backups/01-10-2015/turmas.json
-{% endhighlight %}
+```
 
 Para saber mais sobre o export [clique aqui](https://docs.mongodb.org/manual/reference/program/mongoexport/).
 
 Podemos também adicionar uma query aos comandos se quisermos pegar ou exportar somente parte do arquivo, isso mesmo, eu sei é genial.
 
-{% highlight bash %}
+```sh
 mongoexport -d sistema -c usuarios -q "{ email: 'lucasmaiaesilva@gmail.com' }" --out backup/lucas.json
-{% endhighlight %}
+```
 
 Se você ainda não sabe trabalhar as queries de consulta, não se preocupe pois o próximo post da série irá explicar isso com muito mais detalhes. Mas resumindo o exemplo acima irá varrer toda a *collection* usuarios e pegar o *document* ou os *documents* que tiverem o campo de email lucasmaiaesilva@gmail.com.
 

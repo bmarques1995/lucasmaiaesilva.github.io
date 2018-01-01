@@ -7,7 +7,7 @@ Depois de um breve período de tempo, resolvi voltar a escrever e hoje vou escre
 
 Sabe quando você usa o Bootstrap por exemplo e sai colocando aquela tsunami de classes em seus elementos HTML? Pois é esses *presets* são oriundos do próprio framework e funcionam mais ou menos assim: 
 
-{% highlight html linenos %}
+```html
 <div class="row">
   <div class="col-xs-12 col-sm-6 col-md-8">.col-xs-12 .col-sm-6 .col-md-8</div>
   <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
@@ -19,7 +19,7 @@ Sabe quando você usa o Bootstrap por exemplo e sai colocando aquela tsunami de 
   <div class="clearfix visible-xs-block"></div>
   <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
 </div>
-{% endhighlight %}
+```
 
 O código acima iria gerar um resultado mais ou menos assim:
 
@@ -44,7 +44,7 @@ Suponhamos que precisaríamos de criar uma página semelhante a estrutura mostra
 Nosso HTML ficaria mais ou menos assim.
 
 
-{% highlight html linenos %}
+```html
 <body>
 	<header>
 		Cabeçalho
@@ -59,11 +59,11 @@ Nosso HTML ficaria mais ou menos assim.
 		Rodapé
 	</footer>
 </body>
-{% endhighlight %}
+```
 
 Nesse exemplo usarei o Stylus juntamente com o Jeet, nosso arquivo ficaria assim:
 
-{% highlight sass linenos %}
+```styl
 header
    stack()
 .content
@@ -72,7 +72,7 @@ aside
    col(2/12)
 footer
    stack()
-{% endhighlight %}
+```
 
 Uma ressalva para as linhas 4 e 6 que substituem as classes `col-xs-10` e `col-xs-2` do bootstrap, respectivamente. Viu a diferença?
 
@@ -92,7 +92,7 @@ Entre muitas outras.
 
 E para inserir um pouco de responsividade ná página? Existem várias maneiras de se fazer isso, uma delas é acrescentando o [rupture](http://jenius.github.io/rupture/) (um outro plugin do Stylus), com ele instalado podemos simplesmente fazer isso:
 
-{% highlight sass linenos %}
+```styl
 breakpoint = 980px
 
 header
@@ -108,7 +108,7 @@ aside
    stack()
 footer
    stack()
-{% endhighlight %}
+```
 
 O comando `+below()` vem do [rupture](http://jenius.github.io/rupture/), ele recebe como parâmetro um valor que determina em qual momento ele irá mudar o comportamento da sua página, mais precisamente ele analisa a quantidade de pixels da tela do seu dispositivo e o que estiver identado como pertencente a ele será executado se for menor que a referência. Se você já tem costume de criar páginas responsivas isso não é muito diferente das convencionais *media queries*.
 
@@ -142,21 +142,21 @@ Sabe quando temos vários elementos em linha e definimos um espaçamento padrão
 
 A formatação da página inicial é feita com três posts por linha, e naturalmente quando se usa o `col` ele faz o espaçamento devido para deslocar os elementos em linha, porém nesse caso haverá possivelmente mais de uma linha, o que significa que devemos remover o espaço do último item do bloco para que não haja quebra desse espaçamento (para mais detalhes veja esse [vídeo](https://www.youtube.com/watch?v=roqlCwEn4iI)), a referência usada para remover esse espaço é `cycle`. Veja um exemplo de sua utilização:
 
-{% highlight bash %}
+```styl
 .post
    col(1/3, cycle:3)
-{% endhighlight %}
+```
 
 #### Uncycle
 
 Uncycle desfaz a formatação do cycle, é bem útil quando queremos adicionar algum comportamento responsivo ao nosso site.
 
-{% highlight bash %}
+```styl
 .post
    col(1/3, cycle:3)
    +tablet()
       col(1/2, uncycle:3, cycle:2)
-{% endhighlight %}
+```
 
 Bem auto-explicativo não? Quando a página for acessada pelo tablet (breakpoint definido pelo plugin rupture), ele irá trocar os elementos do grid para dois itens do bloco ao invés de três.
 
@@ -164,9 +164,9 @@ Bem auto-explicativo não? Quando a página for acessada pelo tablet (breakpoint
 
 O `span` possui basicamente o mesmo conceito do `col`, a única diferença é que no span não existe espaçamento.
 
-{% highlight bash %}
+```styl
 span(3/12)
-{% endhighlight %}
+```
 
 Existem outras features do Jeet, mas não vou me atentar a explicar todas aqui, pois o post ficou bem maior do que esperava, mas se você chegou até aqui é porque, assim como eu, achou interessante a sua utilização, aconselho ler a documentação em sua [página inicial](http://jeet.gs/).
 
