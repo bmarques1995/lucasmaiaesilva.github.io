@@ -2,7 +2,7 @@
   <article class="post container">
     <div class="post-content">
       <div v-html="postContent" />
-      <disqus ref="disqus" v-bind:shortname="disqusShortname" :identifier="disqusId"></disqus>
+      <disqus ref="disqus" v-bind:shortname="disqusShortname" :identifier="disqusId" />
     </div>
   </article>
 </template>
@@ -47,6 +47,10 @@
   font-size: 90%;
 }
 
+.post-content img {
+  width: 100%;
+}
+
 .post-content pre {
   margin: 3rem 0;
 }  
@@ -60,6 +64,17 @@
   text-decoration: underline;
 }
 
+.post-content blockquote {
+  background: #f5f5f5;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+}
+
+.post-content blockquote p {
+  margin-bottom: 0.03rem
+}
+
 @media screen and (min-width: 734px) {
   .post-content pre {
     margin: 3rem 0;
@@ -70,6 +85,10 @@
   }
   .post-content h1 {
     font-size: 2rem;
+  }
+  .post-content img {
+    width: auto;
+    max-width: 100%;
   }
 }
 

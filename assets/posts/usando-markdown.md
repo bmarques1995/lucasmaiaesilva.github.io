@@ -1,3 +1,4 @@
+# Usando Markdown
 
 Este é o primeiro post do blog, sei que ainda tenho muito a melhorar, mas até lá, a maioria dos meus posts serão sobre ferramentas que usei para a criação deste humilde espaço para disseminação do conhecimento, e o primeiro assunto que gostaria de abordar é o markdown (que inclusive estou usando neste momento para escrever este post), mas antes de começar gostaria de agradecer todos que fizeram isso possível, [Felipe Siqueira](https://github.com/flipggs), [Willian Justen](https://github.com/willianjusten), [Marcus Silva](https://github.com/mvfsilva), [Jader Gomes](https://github.com/jjaderg), [Yan Magalhães](https://github.com/YanMagale), [Gabriel Azevedo](https://github.com/gabrielazevedo),  [Rafael Moura](http://github.com/rafaelrmou) que mantém o site [studyxnet](http://www.studyxnet.com/), e toda a galera do DevsGroup, que além de grandes amigos são ótimos programadores e podem ter certeza que ouvirão falar muito sobre essa galera.
 

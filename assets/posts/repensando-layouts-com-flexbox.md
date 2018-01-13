@@ -1,3 +1,4 @@
+# Repensando Layouts com Flexbox
 
 ## Introdução
 
@@ -38,14 +39,14 @@ Primeiramente escrevemos o bom e velho HTML de maneira simples.
 ```html
 index.html
 <html>
-	<body>
-		<aside class="barra-lateral">
-			sidebar
-		</aside>
-		<section class="conteudo">
-			conteúdo
-		</section>
-	</body>
+  <body>
+    <aside class="barra-lateral">
+      sidebar
+    </aside>
+    <section class="conteudo">
+      conteúdo
+    </section>
+  </body>
 </html>
 ```
 
@@ -57,7 +58,7 @@ Normalmente usaríamos uma série de `floats` e `margins` para conseguirmos o re
 
 ```css
 body {
-	display: flex;
+  display: flex;
 }
 ```
 
@@ -71,17 +72,17 @@ Em seguida vamos setar algumas características dos elementos `aside` e `section
 
 ```css
 body {
-	display: flex;
+  display: flex;
 }
 
 aside.barra-lateral {
-	width: 20%;
-	background: peachPuff;
+  width: 20%;
+  background: peachPuff;
 }
 
 section.conteudo {
-	flex-grow: 1;
-	background: gray;
+  flex-grow: 1;
+  background: gray;
 }
 ```
 
@@ -93,18 +94,18 @@ E por último para finalizar o protótipo base, adicionamos ao `body` que é nos
 
 ```css
 body {
-	display: flex;
-	height: 100vh;
+  display: flex;
+  height: 100vh;
 }
 
 aside.barra-lateral {
-	width: 20%;
-	background: peachPuff;
+  width: 20%;
+  background: peachPuff;
 }
 
 section.conteudo {
-	flex-grow: 1;
-	background: gray;
+  flex-grow: 1;
+  background: gray;
 }
 ```
 
@@ -117,17 +118,17 @@ Agora vamos alterar novamente a estrutura do nosso html, dentro dele vamos adici
 
 ```html
 <body>
-	<aside class="barra-lateral">
-		sidebar
-	</aside>
-	<section class="conteudo">
-		<div class="display">
-			display
-		</div>
-		<div class="insert">
-			insert
-		</div>
-	</section>
+  <aside class="barra-lateral">
+    sidebar
+  </aside>
+  <section class="conteudo">
+    <div class="display">
+      display
+    </div>
+    <div class="insert">
+      insert
+    </div>
+  </section>
 </body>
 ```
 

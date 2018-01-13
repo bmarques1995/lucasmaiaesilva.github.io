@@ -119,6 +119,7 @@ Fazendo uso do poder dos pré-processadores, nós podemos usar frações reais o
 O Jeet como a própria [documentação](http://jeet.gs/) diz, é um sistema de grid para humanos, ele possui a proposta de ter uma fácil leitura e escrita para que possamos descrever uma página de grid do jeito que o ser humano faria diferente de um bootstrap por exemplo, onde a interface não é muito amigável.
 
 By making use of the power of pre-processors, we can now pass real fractions (or float numbers) as context that generates a percentage based width and gutter for grids. We're able to do this while maintaining a consistently sized infinitely nestable gutter.
+# Grids semânticos com Jeet
 
 Vamos a algumas de suas features.
 
