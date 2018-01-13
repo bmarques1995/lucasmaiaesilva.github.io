@@ -1,6 +1,9 @@
 <template>
   <article class="post container">
-    <div class="post-content" v-html="postContent"></div>
+    <div class="post-content">
+      <div v-html="postContent" />
+      <disqus ref="disqus" v-bind:shortname="disqusShortname" :identifier="disqusId"></disqus>
+    </div>
   </article>
 </template>
 
@@ -82,11 +85,30 @@
 </style>
 
 <script type="text/babel">
+import Disqus from 'vue-disqus/VueDisqus.vue'
+
 export default {
+  components: {
+    Disqus
+  },
   computed: {
     postContent () {
       const { id } = this.$route.params
       return require(`~/assets/posts/${id}.md`)
+    },
+    disqusShortname () {
+      return 'bloglucasmaiaesilva'
+    },
+    disqusId () { // env used to avoid re-use from dev to production
+      return `${process.env.NODE_ENV}-${this.disqusShortname}-${this.$route.params.id}`
+    }
+  },
+  watch: {
+    '$route.params.id' (curr, old) {
+      // disqus does not properly reload just based off the
+      // disqusId computed property - we need to manually change it
+      // when we know it should update
+      this.$refs.disqus.init()
     }
   }
 }
