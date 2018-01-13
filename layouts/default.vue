@@ -31,6 +31,16 @@ body {
   background: #f1f1f1;
 }
 
+.center {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.center a {
+  text-decoration: none !important;
+  font-weight: 500;
+}
+
 .App-blog {
   min-height: 100vh;
   display: flex;

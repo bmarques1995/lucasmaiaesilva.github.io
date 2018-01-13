@@ -188,7 +188,7 @@ Arte final
 
 ![Arte Final](/posts/flexbox/final-art.png)
 
-<div class="view-demo">
+<div class="center">
 	<a href="http://lucasmaiaesilva.com.br/firebase-chat/" class="button button-3d button-caution button-rounded" target="blank">Ver o projeto</a>
 	<a href="http://github.com/lucasmaiaesilva/firebase-chat/" class="button button-3d button-primary button-rounded" target="blank">Ver o código no Github</a>	
 </div>

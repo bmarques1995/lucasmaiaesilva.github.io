@@ -54,7 +54,8 @@ module.exports = {
     }
   },
   css: [
-    '~/assets/css/highlightjs.min.css'
+    '~/assets/css/highlightjs.min.css',
+    '~/assets/css/buttons.css'
   ],
   plugins: [
     '~/plugins/vue-highlightjs'
