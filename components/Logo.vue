@@ -11,8 +11,8 @@
     align-items: center;
   }
   .logo-image {
-    height: 3vw;
-    width: 3vw;
+    width: 2.5rem;
+    height: 2.5rem;
     background: rgb(136, 0, 0);
     border-radius: 50%;
   }
@@ -22,5 +22,12 @@
     margin-left: 1rem;
     font-family: Nunito,Helvetica Neue,Helvetica,Arial,sans-serif;
     text-transform: capitalize;
+  }
+
+  @media screen and (min-width: 734px) {
+    .logo-image {
+      height: 3vw;
+      width: 3vw;
+    }
   }
 </style>

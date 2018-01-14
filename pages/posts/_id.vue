@@ -27,6 +27,7 @@
 
 .post-content h1 {
   margin: 2rem 0;
+  line-height: 2rem;
   font-size: 1.6rem;
 }
 
