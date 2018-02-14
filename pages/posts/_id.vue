@@ -106,8 +106,14 @@
 
 <script type="text/babel">
 import Disqus from 'vue-disqus/VueDisqus.vue'
+import { posts } from '~/assets/posts.json'
 
 export default {
+  head () {
+    return {
+      title: this.post.title
+    }
+  },
   components: {
     Disqus
   },
@@ -121,6 +127,12 @@ export default {
     },
     disqusId () { // env used to avoid re-use from dev to production
       return `${process.env.NODE_ENV}-${this.disqusShortname}-${this.$route.params.id}`
+    },
+    title () {
+      return this.$route.params.id
+    },
+    post () {
+      return posts.find(post => post.slug === this.title)
     }
   },
   watch: {
