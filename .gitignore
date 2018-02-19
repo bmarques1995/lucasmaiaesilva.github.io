@@ -1,5 +1,13 @@
-_site
-.sass-cache
+# dependencies
 node_modules
-_drafts
+
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+
 .DS_Store
