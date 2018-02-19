@@ -2,6 +2,7 @@
   <article class="post container">
     <div class="post-content">
       <div v-html="postContent" />
+      <Share :url="url" />
       <disqus ref="disqus" v-bind:shortname="disqusShortname" :identifier="disqusId" />
     </div>
   </article>
@@ -106,6 +107,7 @@
 
 <script type="text/babel">
 import Disqus from 'vue-disqus/VueDisqus.vue'
+import Share from '~/components/Share.vue'
 import { posts } from '~/assets/posts.json'
 
 export default {
@@ -115,7 +117,8 @@ export default {
     }
   },
   components: {
-    Disqus
+    Disqus,
+    Share
   },
   computed: {
     postContent () {
@@ -133,6 +136,9 @@ export default {
     },
     post () {
       return posts.find(post => post.slug === this.title)
+    },
+    url () {
+      return `http://lucasmaiaesilva.com.br/${this.title}`
     }
   },
   watch: {
